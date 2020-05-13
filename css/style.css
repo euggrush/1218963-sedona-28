@@ -144,4 +144,28 @@ color: #000000;
     top: 564px;
 
     background: #FFFFFF;
+    border: solid 1px black;
+}
+
+.five-reasons-text-1 {
+    position: absolute;
+    width: 470px;
+    height: 80px;
+    left: 405px;
+    top: 606.5px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    /* or 124% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+
 }
