@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Eugene Grushin](https://up.htmlacademy.ru/htmlcss/28/user/1218963).
-* Наставник: `Егор Глебов`.
+* Наставник: [Егор Глебов] (https://htmlacademy.ru/profile/beast).
 
 ---
 
