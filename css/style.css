@@ -107,20 +107,41 @@ color: #000000;
     color: #000000;
 }
 
-.logo {
-    position: absolute;
-    width: 138px;
-    height: 70px;
-    left: 571px;
-    top: 0px;
-}
-
 .welcome {
     position: absolute;
     width: 1200px;
     height: 509px;
     left: 40px;
     top: 55px;
-    border: solid 1px black;
-    background-image: url("img/background_photo.png");
+    background-image: url(../img/background_photo.png);
+}
+
+.logo {
+    position: absolute;
+    width: 138px;
+    height: 70px;
+    left: 571px;
+    top: 0px;
+    background-image: url(..//img/shape_logo_1.png);
+    z-index: 1;
+}
+
+.five-reasons-top {
+    position: absolute;
+    width: 1200px;
+    height: 57px;
+    left: 40px;
+    top: 508px;
+
+    background-image: url(../img/shape_2.png);
+}
+
+.five-reasons {
+    position: absolute;
+    width: 1200px;
+    height: 216px;
+    left: 40px;
+    top: 564px;
+
+    background: #FFFFFF;
 }
