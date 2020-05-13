@@ -144,7 +144,7 @@ color: #000000;
     top: 564px;
 
     background: #FFFFFF;
-    border: solid 1px black;
+    
 }
 
 .five-reasons-text-1 {
@@ -167,5 +167,28 @@ color: #000000;
     text-transform: uppercase;
 
     color: #000000;
+    
 
+}
+
+.five-reasons-text-2 {
+    position: absolute;
+    width: 519px;
+    height: 26px;
+    left: 380px;
+    top: 703px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
 }
