@@ -107,7 +107,7 @@ color: #000000;
     color: #000000;
 }
 
-.welcome {
+.main-picture {
     position: absolute;
     width: 1200px;
     height: 509px;
@@ -126,13 +126,12 @@ color: #000000;
     z-index: 1;
 }
 
-.five-reasons-top {
+.second-shape {
     position: absolute;
     width: 1200px;
     height: 57px;
     left: 40px;
     top: 508px;
-
     background-image: url(../img/shape_2.png);
 }
 
