@@ -1,0 +1,45 @@
+.twitter-logo {
+    width: 46px;
+    height: 48px;
+    background: #81B3D2;
+    text-align: center;
+}
+
+.fb-logo {
+    width: 46px;
+    height: 48px;
+    background: #81B3D2;
+    text-align: center;
+}
+
+.youtube-logo {
+    width: 46px;
+    height: 48px;
+    background: #81B3D2;
+    text-align: center;
+}
+
+.bg-welcome {
+    position: absolute;
+    left: 411.38px;
+    top: 132.35px;
+}
+
+nav {
+    position: absolute;
+    width: 1200px;
+    height: 56px;
+    left: 40px;
+    top: 0px;
+    background: #FFFFFF;
+  
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}

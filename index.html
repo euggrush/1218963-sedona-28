@@ -11,7 +11,7 @@
     <header>
       <nav>
         <a>
-          <img src="img/shape_logo_1.png">
+          <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
         </a>
         <ul class="main-menu">
           <li><a href="">ИНФОРМАЦИЯ</a></li>
@@ -23,7 +23,15 @@
     </header>
 
   <main>
-
+    <div class="bg-welcome">
+      <img src="img/welcome.svg" width="456.65" height="350.88" alt="welcome">
+    </div>
+    <div class="bg">
+      <img src="img/background_photo.png" width="1200" height="509" alt="Седона">
+    </div>
+    <div class="bg-bottom">
+      <img src="img/shape_2.png" width="1200" height="57" alt="Седона">
+    </div>
     <h1 class="five-reasons-text-1">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
     
     <section>
@@ -35,17 +43,28 @@
           <h3>Настоящий городок</h3>
           <p>— №1 —</p>
           <p>Седона - не аттракцион для туристов, там течёт своя жизнь</p>
-
+          <div>
+            <img src="img/real_town_logo.jpg" width="800" height="256" alt="Настоящий городок">
+          </div>
           <ul>
            <li>
+             <p>
+              <img src="img/icon-1.svg" width="75" height="72" alt="room">
+             </p>
             <h3>Жильё</h3>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
            </li>
            <li>
+            <p>
+              <img src="img/icon-3.svg" width="75" height="70" alt="food">
+             </p>
             <h3>Еда</h3>
             <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
            </li>
            <li>
+            <p>
+              <img src="img/icon-2.svg" width="64" height="77" alt="souvenirs">
+             </p>
             <h3>Сувениры</h3>
             <p>Не только китайского, но и местного производства!</p>
            </li>
@@ -53,7 +72,9 @@
 
         
 
-       
+          <div>
+            <img src="img/davil_bridge_logo.jpg" width="800" height="256" alt="Мост дьявола">
+          </div>
           <h3>Там есть Мост дьявола</h3>
           <p>— №2 —</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -87,12 +108,29 @@
     </section>
 
     <section>
+      <img src="img/map.svg" width="1199" height="594" alt="map">
       <!--Здесь будет карта-->
     </section>
 
     <section>
       <button>ПОИСК ГОСТИНИЦЫ В седоне</button>
       <!--Здесь будет форма-->
+      <form>
+        <label for="date-in">Дата заезда:</label>
+        <input type="text" id="date-in">
+        <p>
+          <img src="img/calendar.svg" width="21" height="23" alt="calendar">
+        </p>
+        <label for="date-out">Дата выезда:</label>
+        <input type="text" id="date-out">
+        <p>
+          <img src="img/calendar.svg" width="21" height="23" alt="calendar">
+        </p>
+        <label for="adults">Взрослые:</label>
+        <input type="text" id="adults" value="2">
+        <label for="children">Дети:</label>
+        <input type="text" id="children" value="0">
+      </form>
       <button type="button">Найти</button>
     </section>
     
@@ -102,28 +140,37 @@
     <section>
       <h2>#visitSEDONA</h2>
       <p>ТЕЛ: +7(495) 666-01</p>
-    
-    
       <ul>
         <li>
-          <a href="#">Twitter</a>
+          <a href="#">
+            <p class="twitter-logo">
+              <img src="img/twitter.svg" width="17" height="17" alt="twitter">
+            </p>
+          </a>
         </li>
         <li>
-          <a href="#">Facebook</a>
+          <a href="#">
+            <p class="fb-logo">
+              <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
+            </p>
+          </a>
         </li>
         <li>
-          <a href="#">Youtube</a>
+          <a href="#">
+            <p class="youtube-logo">
+              <img src="img/youtube.svg" width="20" height="16" alt="youtube">
+            </p>
+          </a>
         </li>
       </ul>
     
     <p>
       Website by
-      <a href="https://htmlacademy.ru">HTML Academy</a>
+      <a href="https://htmlacademy.ru">
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
+      </a>
     </p>
-
    </section>
   </footer>
-      
-        
    </body>
 </html>
