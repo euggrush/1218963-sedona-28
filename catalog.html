@@ -22,9 +22,7 @@
       </header>
   
     <main>
-      <div class="bg-hotels">
-        <img src="img/background-hotels.png" width="1200" height="217" alt="Sedona Hotels">
-      </div>
+     
       <section>
         <p>ИНФРАСТРУКТУРА:</p>
           <input type="checkbox" id="pool">
@@ -52,17 +50,19 @@
         <input type="range" min="0" max="5000" step="100" value="3000"> 
         <button>Показать</button>
       </section>
-        <section>
+
+        <form>
           <h4>НАЙДЕНО: 3</h4>
           <p>Сортировка:</p>
-          <ul>
-            <li>По цене</li>
-            <li>По типу</li>
-            <li>По рейтингу</li>
-          </ul>
-          <p><img src="img/icon-down-dir.svg" width="11" height="10" alt="arrow"></p>
-          <p><img src="img/icon-up-dir.svg" width="11" height="10" alt="arrow"></p>
-        </section>
+          
+            <input type="checkbox">По цене</input>
+            <input type="checkbox">По типу</input>
+            <input type="checkbox">По рейтингу</input>
+          
+          <input type="radio"><img src="img/icon-down-dir.svg" width="11" height="10" alt="arrow"></input>
+          <input type="radio"><img src="img/icon-up-dir.svg" width="11" height="10" alt="arrow"></input>
+        </form>
+
       <ul>
         <li>
           <img src="img/amara-logo.jpg" width="135" height="90" alt="Amara Hotel">
@@ -118,21 +118,21 @@
         <p>ТЕЛ: +7(495) 666-01</p>
         <ul>
           <li>
-            <a href="#">
+            <a href="#">Твиттер
               <p class="twitter-logo">
                 <img src="img/twitter.svg" width="17" height="17" alt="twitter">
               </p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#">Фейсбук
               <p class="fb-logo">
                 <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
               </p>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#">Ютуб
               <p class="youtube-logo">
                 <img src="img/youtube.svg" width="20" height="16" alt="youtube">
               </p>
@@ -141,7 +141,7 @@
         </ul>
       <p>
         Website by
-        <a href="https://htmlacademy.ru">
+        <a href="https://htmlacademy.ru">HTML Academy
           <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
         </a>
       </p>
