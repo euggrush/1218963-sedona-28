@@ -95,9 +95,77 @@ nav > a {
 }
 
 .main-menu li:nth-child(3) {
-    
+    position: absolute;
+    width: 85px;
+    height: 26px;
+    left: 856px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .main-menu li:nth-child(4) {
-    
+    position: absolute;
+    width: 80px;
+    height: 26px;
+    left: 1088px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sedona-text-1 {
+    position: absolute;
+    width: 470px;
+    height: 80px;
+    left: 405px;
+    top: 606.5px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    /* or 124% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sedona-text-2 {
+    position: absolute;
+    width: 519px;
+    height: 26px;
+    left: 380px;
+    top: 703px;
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    /* identical to box height, or 186% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+.town-photo {
+    position: absolute;
+    left: 440px;
+    top: 780px;
+}
+
+.bridge-photo {
+    position: absolute;
+    left: 40px;
+    top: 1366px;
 }
