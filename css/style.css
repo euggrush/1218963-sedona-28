@@ -26,7 +26,6 @@ nav {
     left: 40px;
     top: 0px;
     background: #FFFFFF;
-  
 }
 
 nav li {
@@ -79,7 +78,6 @@ nav > a {
     display: flex;
     align-items: center;
     text-align: center;
-    
 }
 
 .main-menu li:nth-child(2) {
@@ -154,7 +152,6 @@ nav > a {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-
     color: #333333;
 }
 
@@ -168,4 +165,10 @@ nav > a {
     position: absolute;
     left: 40px;
     top: 1366px;
+}
+
+.map-picture {
+    position: absolute;
+    left: 41px;
+    top: 2169px;
 }
