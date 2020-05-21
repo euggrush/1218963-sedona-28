@@ -37,3 +37,67 @@ nav li a {
     text-decoration: none;
     color: black;
 }
+
+.main-menu {
+    position: absolute;
+    width: 1200px;
+    height: 56px;
+    left: 40px;
+    top: 0px;
+    background: #FFFFFF;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px; 
+    text-transform: uppercase;
+}
+
+nav a img {
+    position: absolute;
+    left: 571px;
+    top: 0px;
+    z-index: 2;
+}
+
+.bg {
+    position: absolute;
+    left: 40px;
+    top: 55px;
+}
+
+nav > a {
+    font-size: 0ex;
+}
+
+.main-menu li:nth-child(1) {
+    position: absolute;
+    width: 94px;
+    height: 26px;
+    left: 112px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.main-menu li:nth-child(2) {
+    position: absolute;
+    width: 98px;
+    height: 26px;
+    left: 340px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.main-menu li:nth-child(3) {
+    
+}
+
+.main-menu li:nth-child(4) {
+    
+}
