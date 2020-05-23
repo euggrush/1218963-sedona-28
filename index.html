@@ -87,11 +87,11 @@
 
     <section>
       <button>ПОИСК ГОСТИНИЦЫ В седоне</button>
-      <!--Здесь будет форма-->
-      <form>
+      
+      <form action="https://echo.htmlacademy.ru" method="post"> 
         <p>
          <label for="date-in">Дата заезда:</label>
-         <input type="text" id="date-in">
+         <input type="text" id="date-in" placeholder="01.08.2020">
           <button> Выберете дату заезда
             <img src="img/calendar.svg" width="21" height="23" alt="calendar">
           </button>
@@ -99,18 +99,38 @@
         
         <p>
           <label for="date-out">Дата выезда:</label>
-          <input type="text" id="date-out">
+          <input type="text" id="date-out" placeholder="01.09.2020">
           <button> Выберете дату выезда
             <img src="img/calendar.svg" width="21" height="23" alt="calendar">
           </button>
-          
         </p>
-        <label for="adults">Взрослые:</label>
-        <input type="text" id="adults" value="2">
-        <label for="children">Дети:</label>
-        <input type="text" id="children" value="0">
+
+        <p>
+          <label>Взрослые:
+            <button>убрать человека
+              <img src="img/minus-icon.svg" width="12" height="3" alt="minus">
+            </button>
+            <input type="text" value="2">
+            <button>добавить человека
+              <img src="img/plus-icon.svg" width="11" height="11" alt="plus">
+            </button>
+          </label>
+        </p>
+
+        <p>
+          <label>Дети:
+            <button>убрать человека
+              <img src="img/minus-icon.svg" width="12" height="3" alt="minus">
+            </button>
+            <input type="text" value="0">
+            <button>добавить человека
+              <img src="img/plus-icon.svg" width="11" height="11" alt="plus">
+            </button>
+          </label>
+        </p>
       </form>
-      <button type="button">Найти</button>
+
+      <button type="submit">Найти</button>
     </section>
     
   </main>

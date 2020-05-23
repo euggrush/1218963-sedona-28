@@ -1,4 +1,4 @@
-.twitter-logo {
+/* .twitter-logo {
     width: 46px;
     height: 48px;
     background: #81B3D2;
@@ -126,7 +126,6 @@ nav > a {
     font-weight: bold;
     font-size: 21px;
     line-height: 26px;
-    /* or 124% */
 
     display: flex;
     align-items: center;
@@ -146,7 +145,6 @@ nav > a {
     font-weight: normal;
     font-size: 14px;
     line-height: 26px;
-    /* identical to box height, or 186% */
 
     display: flex;
     align-items: center;
@@ -171,4 +169,12 @@ nav > a {
     position: absolute;
     left: 41px;
     top: 2169px;
-}
+} */
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
