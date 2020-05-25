@@ -91,15 +91,15 @@
       <form action="https://echo.htmlacademy.ru" method="post"> 
         <p>
          <label for="date-in">Дата заезда:</label>
-         <input type="text" id="date-in" placeholder="01.08.2020">
-          <button type="button" class="text-hidden"> Выберете дату заезда
+         <input type="text" id="date-in" name="date-in" placeholder="01.08.2020">
+          <button type="button" class="text-hidden">Выберете дату заезда
             <img src="img/calendar.svg" width="21" height="23" alt="calendar">
           </button>
         </p>
         
         <p>
           <label for="date-out">Дата выезда:</label>
-          <input type="text" id="date-out" placeholder="01.09.2020">
+          <input type="text" id="date-out" name="date-out" placeholder="01.09.2020">
           <button type="button" class="text-hidden"> Выберете дату выезда
             <img src="img/calendar.svg" width="21" height="23" alt="calendar">
           </button>
@@ -108,14 +108,14 @@
         <p>
           <label for="adults" class="filter-form">Взрослые:</label>
           <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
-          <input id="adults" type="text" value="2">
+          <input id="adults" name="adults" type="text" value="2">
           <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
         </p>
 
         <p>
           <label for="children" class="filter-form">Дети:</label>
           <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
-          <input id="children" type="text" value="0">
+          <input id="children" name="children" type="text" value="0">
           <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
         </p>
         <button type="submit">Найти</button>
