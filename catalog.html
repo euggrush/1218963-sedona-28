@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-          <a href="index.html" class="hidden"> Логотип
+          <a href="index.html" class="text-hidden"> Логотип
             <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
           </a>
           <ul class="main-menu">
@@ -26,39 +26,35 @@
         <form action="https://echo.htmlacademy.ru" method="get">
           <p>ИНФРАСТРУКТУРА:</p>
           <label>
-            <input type="checkbox">
-            <img src="img/checkbox-on.svg" width="27" height="23" alt="checkbox">
+            <input type="checkbox" name="pool" id="pool">
             БАССЕЙН
           </label><br>
-          
+
           <label>
-            <input type="checkbox">
-            <img src="img/checkbox-off.svg" width="27" height="23" alt="checkbox">
+            <input type="checkbox" name="parking" id="parking">
             ПАРКОВКА
           </label><br>
-          
+
           <label>
-            <input type="checkbox">
-            <img src="img/checkbox-off.svg" width="27" height="23" alt="checkbox">
+            <input type="checkbox" name="wifi" id="wifi">
             Wi-Fi
           </label>
 
         <p>Тип жилья:</p>
           <label>
-            <input type="checkbox">
-            <img src="img/checkbox-on.svg" width="27" height="23" alt="checkbox">
+            <input type="checkbox" name="hotel" id="hotel">
             ГостиницА
           </label><br>
 
           <label>
-            <input type="checkbox">
-            <img src="img/checkbox-on.svg" width="27" height="23" alt="checkbox">
-            МОТЕЛЬ</label><br>
+            <input type="checkbox" name="motel" id="motel">
+            МОТЕЛЬ
+          </label><br>
 
           <label>
-            <input type="checkbox">
-            <img src="img/checkbox-on.svg" width="27" height="23" alt="checkbox">
-            АПАРТАМЕНТЫ</label>
+            <input type="checkbox" name="apartment" id="apartment">
+            АПАРТАМЕНТЫ
+          </label>
 
         <p>Стоимость в сутки (Р):</p>
         <input type="range" min="0" max="5000" step="100" value="3000"> 
@@ -71,94 +67,74 @@
           <h4>НАЙДЕНО: 3</h4>
           <fieldset>
             <legend>Сортировка:</legend>
-            <ul>
-              <li>
+                 
                 <label>
                   <input type="radio" name="sort" value="sort-by-price">
                   По цене
                 </label>
-              </li>
-              <li>
+              
                 <label>
                   <input type="radio" name="sort" value="sort-by-type">
                   По типу
                 </label>
-              </li>
-              <li>
+                       
                 <label>
                   <input type="radio" name="sort" value="sort-by-rating">
                   По рейтингу
-                </label>
-              </li>
-            </ul>
+                </label>           
           </fieldset>
 
           <fieldset>
-            <legend class="hidden">Отобразить по возрастанию или убыванию</legend>
-            <ul>
-              <li>
-                <label class="hidden">
+            <legend class="text-hidden">Отобразить по возрастанию или убыванию</legend>             
+                <label class="text-hidden">
                   По возрастанию
-                  <input type="radio" name="up-down" value="up">
-                  <img src="img/icon-down-dir.svg" width="11" height="10" alt="arrow">
+                  <input type="radio" name="up-down" value="up">                 
                 </label>
-              </li>
-              <li>
-                <label class="hidden">
+                <img src="img/icon-down-dir.svg" width="11" height="10" alt="arrow">              
+                <label class="text-hidden">
                   По убыванию
                   <input type="radio" name="up-down" value="down">
-                  <img src="img/icon-up-dir.svg" width="11" height="10" alt="arrow">
                 </label>
-              </li>
-            </ul>
+                <img src="img/icon-up-dir.svg" width="11" height="10" alt="arrow">
           </fieldset>
         </form>
 
-      <ul>
-        <li>
           <img src="img/amara-logo.jpg" width="135" height="90" alt="Amara Hotel">
           <h3>AMARA RESORT & SPA</h3>
           <p>Гостиница от 4000 р.</p>
-          <button>Подробнее</button>
-          <button>Забронировать</button>
-          <p>
+          <button type="button">Подробнее</button>
+          <button type="button">Забронировать</button>
+          
             <div>
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div><br>
-            Рейтинг 8.5
-          </p>
-        </li>
+            <p>/p>Рейтинг 8.5</p>
         
-        <li>
           <img src="img/desert-motel-logo.jpg" width="135" height="90" alt="Desert Quail Inn">
             <h3>Desert Quail Inn</h3>
             <p>Мотель от 3000 р.</p>
-            <button>Подробнее</button>
-            <button>Забронировать</button>
+            <button type="button">Подробнее</button>
+            <button type="button">Забронировать</button>
             <div>
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div><br>
             <p>Рейтинг 8.9</p>
-          </li>
-
-          <li>
+          
             <img src="img/villas-logo.jpg" width="135" height="90" alt="Villas At Poco Diablo">
             <h3>Villas At Poco Diablo</h3>
             <p>Апартаменты от 2000 р.</p>
-            <button>Подробнее</button>
-            <button>Забронировать</button>
+            <button type="button">Подробнее</button>
+            <button type="button">Забронировать</button>
             <div>
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div><br>
             <p>Рейтинг 9.2</p>
-          </li>
-        </ul>
     </main>
   
     <footer>
@@ -167,24 +143,24 @@
         <p>ТЕЛ: +7(495) 666-01</p>
         <ul>
           <li>
-            <a href="#" class="hidden">Ссылка на Твиттер
+            <a href="#" class="text-hidden">Ссылка на Твиттер
                 <img src="img/twitter.svg" width="17" height="17" alt="twitter">
             </a>
           </li>
           <li>
-            <a href="#" class="hidden">Ссылка на Фейсбук
+            <a href="#" class="text-hidden">Ссылка на Фейсбук
                 <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
             </a>
           </li>
           <li>
-            <a href="#" class="hidden">Ссылка на Ютуб
+            <a href="#" class="text-hidden">Ссылка на Ютуб
                 <img src="img/youtube.svg" width="20" height="16" alt="youtube">
             </a>
           </li>
         </ul>
       <p>
         Website by
-        <a href="https://htmlacademy.ru" class="hidden">Ссылка на сайт HTML Academy
+        <a href="https://htmlacademy.ru" class="text-hidden">Ссылка на сайт HTML Academy
           <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
         </a>
       </p>

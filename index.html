@@ -9,7 +9,7 @@
 
     <header>
       <nav>
-        <a href="#" class="hidden"> Логотип
+        <a href="#" class="text-hidden"> Логотип
           <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
         </a>
         <ul class="main-menu">
@@ -92,7 +92,7 @@
         <p>
          <label for="date-in">Дата заезда:</label>
          <input type="text" id="date-in" placeholder="01.08.2020">
-          <button type="button" class="hidden"> Выберете дату заезда
+          <button type="button" class="text-hidden"> Выберете дату заезда
             <img src="img/calendar.svg" width="21" height="23" alt="calendar">
           </button>
         </p>
@@ -100,33 +100,23 @@
         <p>
           <label for="date-out">Дата выезда:</label>
           <input type="text" id="date-out" placeholder="01.09.2020">
-          <button type="button" class="hidden"> Выберете дату выезда
+          <button type="button" class="text-hidden"> Выберете дату выезда
             <img src="img/calendar.svg" width="21" height="23" alt="calendar">
           </button>
         </p>
 
         <p>
-          <label class="filter-form">Взрослые:
-            <button type="button" class="hidden">убрать человека
-              <img src="img/minus-icon.svg" width="12" height="3" alt="minus">
-            </button>
-            <input type="text" value="2">
-            <button type="button" class="hidden">добавить человека
-              <img src="img/plus-icon.svg" width="11" height="11" alt="plus">
-            </button>
-          </label>
+          <label for="adults" class="filter-form">Взрослые:</label>
+          <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
+          <input id="adults" type="text" value="2">
+          <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
         </p>
 
         <p>
-          <label class="filter-form">Дети:
-            <button type="button" class="hidden">убрать человека
-              <img src="img/minus-icon.svg" width="12" height="3" alt="minus">
-            </button>
-            <input type="text" value="0">
-            <button type="button" class="hidden">добавить человека
-              <img src="img/plus-icon.svg" width="11" height="11" alt="plus">
-            </button>
-          </label>
+          <label for="children" class="filter-form">Дети:</label>
+          <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
+          <input id="children" type="text" value="0">
+          <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
         </p>
         <button type="submit">Найти</button>
       </form>
@@ -140,24 +130,24 @@
       <p>ТЕЛ: +7(495) 666-01</p>
       <ul>
         <li>
-          <a href="#" class="hidden">Ссылка на Твиттер
+          <a href="#" class="text-hidden">Ссылка на Твиттер
               <img src="img/twitter.svg" width="17" height="17" alt="twitter">
           </a>
         </li>
         <li>
-          <a href="#" class="hidden">Ссылка на Фейсбук
+          <a href="#" class="text-hidden">Ссылка на Фейсбук
               <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
           </a>
         </li>
         <li>
-          <a href="#" class="hidden">Ссылка на Ютуб
+          <a href="#" class="text-hidden">Ссылка на Ютуб
               <img src="img/youtube.svg" width="20" height="16" alt="youtube">
           </a>
         </li>
       </ul>
     <p>
       Website by
-      <a href="https://htmlacademy.ru" class="hidden">Ссылка на сайт HTML Academy
+      <a href="https://htmlacademy.ru" class="text-hidden">Ссылка на сайт HTML Academy
         <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
       </a>
     </p>
