@@ -6,7 +6,7 @@
     --basic-dark: #888888;
     --basic-brown: #766357;
     --basic-white: #ffffff;
-  
+    --basic-extra-grey: #EEEEEE;
     --blue: #81b3d2;
   }
   
@@ -64,3 +64,35 @@
 .site-navigation a:focus {
   color: var(--blue);
 }
+
+/* Features */
+
+.features-list li {
+  list-style: none;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.features-list .feature-item:nth-child(1) {
+  background-color: var(--blue);
+}
+
+.features-list .feature-item:nth-child(2) {
+  background-color: var(--basic-white);
+}
+
+.features-list .feature-item:nth-child(3) {
+  background-color: var(--blue);
+}
+
+.features-list .feature-item:nth-child(4) {
+  background-color: var(--basic-extra-grey);
+}
+
