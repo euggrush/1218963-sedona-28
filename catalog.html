@@ -11,7 +11,7 @@
 
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo" href="#">
+        <a class="main-header-logo" href="index.html">
           <span class="visually-hidden">Главная</span> 
           <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
         </a>
@@ -25,9 +25,9 @@
     </header>
   
     <main>
-      <section>
+      <section class="hotel-filter">
         <form action="https://echo.htmlacademy.ru" method="get">
-          <h3>ИНФРАСТРУКТУРА:</h3>
+          <h3 class="filter-title">ИНФРАСТРУКТУРА:</h3>
           <label>
             <input type="checkbox" name="pool" id="pool">
             БАССЕЙН
@@ -43,7 +43,7 @@
             Wi-Fi
           </label>
 
-        <h3>Тип жилья:</h3>
+        <h3 class="filter-title">Тип жилья:</h3>
           <label>
             <input type="checkbox" name="hotel" id="hotel">
             ГостиницА
@@ -59,16 +59,16 @@
             АПАРТАМЕНТЫ
           </label>
 
-        <p>Стоимость в сутки (Р):</p>
+        <h3 class="filter-title">Стоимость в сутки (Р):</h3>
         <input type="range" min="0" max="5000" step="100" value="3000"> 
 
-        <button type="submit">Показать</button>
+        <button class="show-button" type="submit">Показать</button>
         </form>
-        
       </section>
-        <form action="https://echo.htmlacademy.ru" method="get">
+
+        <form  class="sort" action="https://echo.htmlacademy.ru" method="get">
           <h4>НАЙДЕНО: 3</h4>
-          <fieldset class="sort">
+          <fieldset>
             <legend>Сортировка:</legend>
                 <label>
                   <input type="radio" name="sort" value="sort-by-price">
@@ -87,12 +87,12 @@
           </fieldset>
 
           <fieldset>
-            <legend class="text-hidden">Отобразить по возрастанию или убыванию</legend>             
-                <label class="text-hidden">
+            <legend class="visually-hidden">Отобразить по возрастанию или убыванию</legend>             
+                <label class="visually-hidden">
                   По возрастанию
                   <input type="radio" name="up-down" value="up">                 
                 </label>
-                <label class="text-hidden">
+                <label class="visually-hidden">
                   По убыванию
                   <input type="radio" name="up-down" value="down">
                 </label>
