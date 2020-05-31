@@ -104,8 +104,6 @@
   background-color: var(--basic-extra-grey);
 }
 
-/* Button */
-
 .hotel-search {
   text-align: center;
   color: var(--basic-white);
@@ -184,12 +182,6 @@
 .footer-social li:active {
   background-color: var(--dark-blue);
 }
-
-/* .modal {
-  display: none;
-} */
-
-/* Modal */
 
 .modal {
   color: var(--basic-black);
@@ -282,14 +274,12 @@
 }
 
 .hotel-rating {
-  
-
-font-weight: normal;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-color: var(--grey);
-width: 110px;
-height: 27px;
-background-color: var(--input-color);
+  font-weight: normal;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--grey);
+  width: 110px;
+  height: 27px;
+  background-color: var(--input-color);
 }
