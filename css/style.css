@@ -15,6 +15,7 @@
     --input-color: #F2F2F2;
     --input-color-second: #EBEBEB;
     --extra-white: #E5E5E5;
+    --grey: #666666;
   }
 
   /* Global */
@@ -180,6 +181,115 @@
   background-color: var(--dim-blue);
 }
 
-/* .footer-social li:active {
+.footer-social li:active {
   background-color: var(--dark-blue);
+}
+
+/* .modal {
+  display: none;
 } */
+
+/* Modal */
+
+.modal {
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  width: 568px;
+  height: 395px;
+  text-align: center;
+}
+
+.modal .search-button {
+ width: 458px;
+ height: 58px;
+ background-color: var(--blue);
+ color: var(--basic-white);
+ font-size: 21px;
+ line-height: 26px;
+ text-transform: uppercase;
+ border: solid 1px transparent;
+} 
+
+.modal .search-button:hover {
+  background-color: var(--dim-blue);
+}
+
+.modal .search-button:active {
+  background-color: var(--dark-blue);
+}
+
+.sort input {
+  display: none;
+}
+
+.hotel-title {
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.hotel-title:hover {
+  color: var(--blue);
+}
+
+.hotel-title:active {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.hotel-cost {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: var(--basic-extra-dark);
+}
+
+.about-hotel {
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  width: 110px;
+  height: 27px;
+  background-color: var(--blue);
+  border: solid 1px transparent;
+}
+
+.about-hotel:hover {
+  background-color: var(--dim-blue);
+}
+
+.about-hotel:active {
+  background-color: var(--dark-blue);
+}
+
+.book-hotel {
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-brown);
+  border: solid 1px transparent;
+  width: 142px;
+  height: 27px;
+}
+
+.book-hotel:hover {
+  background-color: var(--extra-brown);
+}
+
+.book-hotel:active {
+  background-color: var(--second-extra-brown);
+}
+
+.hotel-rating {
+  
+
+font-weight: normal;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+color: var(--grey);
+width: 110px;
+height: 27px;
+background-color: var(--input-color);
+}

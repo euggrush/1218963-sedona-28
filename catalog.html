@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic">
+    <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <nav>
-          <a href="index.html" class="text-hidden"> Главная
-            <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
-          </a>
-          <ul class="main-menu">
-            <li><a href="blank.html">ИНФОРМАЦИЯ</a></li>
-            <li><a href="blank.html">ФОТО И ВИДИО</a></li>
-            <li><a href="blank.html">КАРТА ШТАТА</a></li>
-            <li><a href="catalog.html.html">ГОСТИНИЦЫ</a></li>
-          </ul>
-        </nav>
-      </header>
+  </head>
+  <body class="page-body inner-page">
+
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="#">
+          <span class="visually-hidden">Главная</span> 
+          <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="">ИНФОРМАЦИЯ</a></li>
+          <li><a href="">ФОТО И ВИДИО</a></li>
+          <li><a href="">КАРТА ШТАТА</a></li>
+          <li><a href="catalog.html">ГОСТИНИЦЫ</a></li>
+        </ul>
+      </nav>
+    </header>
   
     <main>
       <section>
@@ -65,7 +68,7 @@
       </section>
         <form action="https://echo.htmlacademy.ru" method="get">
           <h4>НАЙДЕНО: 3</h4>
-          <fieldset>
+          <fieldset class="sort">
             <legend>Сортировка:</legend>
                 <label>
                   <input type="radio" name="sort" value="sort-by-price">
@@ -97,10 +100,10 @@
         </form>
 
           <img src="img/amara-logo.jpg" width="135" height="90" alt="Amara Hotel">
-          <h3>AMARA RESORT & SPA</h3>
-          <p>Гостиница от 4000 р.</p>
-          <button type="button">Подробнее</button>
-          <button type="button">Забронировать</button>
+          <h3 class="hotel-title">AMARA RESORT & SPA</h3>
+          <p class="hotel-cost">Гостиница от 4000 р.</p>
+          <button class="about-hotel" type="button">Подробнее</button>
+          <button class="book-hotel" type="button">Забронировать</button>
           
             <div>
               <img src="img/star.svg" width="19" height="17" alt="Star">
@@ -108,60 +111,64 @@
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div>
-            <p>Рейтинг 8.5</p>
+            <p class="hotel-rating">Рейтинг 8.5</p>
         
           <img src="img/desert-motel-logo.jpg" width="135" height="90" alt="Desert Quail Inn">
-            <h3>Desert Quail Inn</h3>
-            <p>Мотель от 3000 р.</p>
-            <button type="button">Подробнее</button>
-            <button type="button">Забронировать</button>
+            <h3 class="hotel-title">Desert Quail Inn</h3>
+            <p class="hotel-cost">Мотель от 3000 р.</p>
+            <button class="about-hotel" type="button">Подробнее</button>
+            <button class="book-hotel" type="button">Забронировать</button>
             <div>
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div>
-            <p>Рейтинг 8.9</p>
+            <p class="hotel-rating">Рейтинг 8.9</p>
           
             <img src="img/villas-logo.jpg" width="135" height="90" alt="Villas At Poco Diablo">
-            <h3>Villas At Poco Diablo</h3>
-            <p>Апартаменты от 2000 р.</p>
-            <button type="button">Подробнее</button>
-            <button type="button">Забронировать</button>
+            <h3 class="hotel-title">Villas At Poco Diablo</h3>
+            <p class="hotel-cost">Апартаменты от 2000 р.</p>
+            <button class="about-hotel" type="button">Подробнее</button>
+            <button class="book-hotel" type="button">Забронировать</button>
             <div>
               <img src="img/star.svg" width="19" height="17" alt="Star">
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div>
-            <p>Рейтинг 9.2</p>
+            <p class="hotel-rating">Рейтинг 9.2</p>
     </main>
   
-    <footer>
+    <footer class="page-footer main-footer">
       <section>
         <h2>#visitSEDONA</h2>
         <p>ТЕЛ: +7(495) 666-01</p>
-        <ul>
+        <ul class="footer-social">
           <li>
-            <a href="#" class="text-hidden">Ссылка на Твиттер
+            <a class="social-button" href="#">
+              <span class="visually-hidden">Ссылка на Твиттер</span>
                 <img src="img/twitter.svg" width="17" height="17" alt="twitter">
             </a>
           </li>
           <li>
-            <a href="#" class="text-hidden">Ссылка на Фейсбук
+            <a class="social-button" href="#">
+              <span class="visually-hidden">Ссылка на Фейсбук</span>
                 <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
             </a>
           </li>
           <li>
-            <a href="#" class="text-hidden">Ссылка на Ютуб
+            <a class="social-button" href="#">
+              <span class="visually-hidden">Ссылка на Ютуб</span>
                 <img src="img/youtube.svg" width="20" height="16" alt="youtube">
             </a>
           </li>
         </ul>
-      <p>
+      <p class="footer-copyright">
         Website by
-        <a href="https://htmlacademy.ru" class="text-hidden">Ссылка на сайт HTML Academy
+        <a href="https://htmlacademy.ru">
+          <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
           <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
         </a>
       </p>
      </section>
     </footer>
-</body>
-</html>
+     </body>
+  </html>
