@@ -11,7 +11,8 @@
 
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo" href="#" class="text-hidden"> Главная
+        <a class="main-header-logo" href="#">
+          <span class="visually-hidden">Главная</span> 
           <img src="img/logo-sedona.svg" width="138" height="70" alt="sedona logo">
         </a>
         <ul class="site-navigation">
@@ -85,20 +86,13 @@
         </ul>
       </section>
       
-          
     <section class="booking">
       <h2>Заинтересовались?</h2>
       <p> Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     </section>
 
-    <section class="map-picture">
-      <img src="img/map.svg" width="1199" height="594" alt="Карты Седоны">
-      <!--Здесь будет карта-->
-    </section>
-
-    <section>
-      <button type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
-      
+    <button class="hotel-search" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
+    <section class="appointment">
       <form action="https://echo.htmlacademy.ru" method="post"> 
         <p>
          <label for="date-in">Дата заезда:</label>
@@ -132,33 +126,41 @@
         <button type="submit">Найти</button>
       </form>
   </section>
-    
+
+  <section class="map-picture">
+    <img src="img/map.svg" width="1199" height="594" alt="Карты Седоны">
+    <!--Здесь будет карта-->
+  </section>
   </main>
 
-  <footer>
+  <footer class="page-footer main-footer">
     <section>
       <h2>#visitSEDONA</h2>
       <p>ТЕЛ: +7(495) 666-01</p>
-      <ul>
+      <ul class="footer-social">
         <li>
-          <a href="#" class="text-hidden">Ссылка на Твиттер
+          <a class="social-button" href="#">
+            <span class="visually-hidden">Ссылка на Твиттер</span>
               <img src="img/twitter.svg" width="17" height="17" alt="twitter">
           </a>
         </li>
         <li>
-          <a href="#" class="text-hidden">Ссылка на Фейсбук
+          <a class="social-button" href="#">
+            <span class="visually-hidden">Ссылка на Фейсбук</span>
               <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
           </a>
         </li>
         <li>
-          <a href="#" class="text-hidden">Ссылка на Ютуб
+          <a class="social-button" href="#">
+            <span class="visually-hidden">Ссылка на Ютуб</span>
               <img src="img/youtube.svg" width="20" height="16" alt="youtube">
           </a>
         </li>
       </ul>
     <p>
       Website by
-      <a href="https://htmlacademy.ru" class="text-hidden">Ссылка на сайт HTML Academy
+      <a href="https://htmlacademy.ru">
+        <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
         <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
       </a>
     </p>

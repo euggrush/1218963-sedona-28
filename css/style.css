@@ -5,13 +5,24 @@
     --basic-extra-dark: #333333;
     --basic-dark: #888888;
     --basic-brown: #766357;
+    --extra-brown: #604E43;
+    --second-extra-brown: #503E33;
     --basic-white: #ffffff;
     --basic-extra-grey: #EEEEEE;
     --blue: #81b3d2;
+    --dim-blue: #669EC0;
+    --dark-blue: #5496BD;
+    --input-color: #F2F2F2;
+    --input-color-second: #EBEBEB;
+    --extra-white: #E5E5E5;
   }
-  
+
   /* Global */
   
+  .text-hidden {
+    font-size: 0ex;
+  }
+
   body {
     min-width: 1200px;
     margin: 0;
@@ -42,10 +53,6 @@
     height: 1px;
     margin: -1px;
   }
-
-.text-hidden {
-    font-size: 0ex;
-}
 
 .main-navigation {
   color: var(--basic-black);
@@ -96,3 +103,83 @@
   background-color: var(--basic-extra-grey);
 }
 
+/* Button */
+
+.hotel-search {
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-brown);
+  border: none;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  width: 568px;
+  height: 86px;
+}
+
+.hotel-search:hover {
+  background-color: var(--extra-brown);
+}
+
+.hotel-search:active {
+  background-color: var(--second-extra-brown);
+  opacity: 0.3;
+}
+
+/* Appointment */
+
+.appointment input {
+  background-color: var(--input-color);
+  border: solid 1px transparent;
+}
+
+.appointment input:hover {
+  background-color: var(--input-color-second);
+}
+
+.appointment input:focus {
+  background: var(--basic-white);
+  border: 2px solid var(--extra-white);
+}
+
+/* Main footer */
+
+.main-footer {
+  color: var(--basic-black);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.main-footer h2,
+.main-footer p {
+  
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+}
+
+.main-footer li {
+  list-style: none;
+}
+
+.footer-social li {
+  width: 46px;
+  height: 48px;
+  background-color: var(--blue);
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social li:hover,
+.footer-social li:focus {
+  background-color: var(--dim-blue);
+}
+
+/* .footer-social li:active {
+  background-color: var(--dark-blue);
+} */
