@@ -109,7 +109,8 @@
     <button class="hotel-search" type="button">ПОИСК ГОСТИНИЦЫ В седоне</button>
     <section class="appointment modal">
       <form action="https://echo.htmlacademy.ru" method="post"> 
-        <p>
+
+        <p class="date-in-input">
          <label for="date-in">Дата заезда:</label>
          <input type="text" id="date-in" name="date-in" placeholder="01.08.2020">
           <button type="button" class="text-hidden">Выберете дату заезда
@@ -117,7 +118,7 @@
           </button>
         </p>
         
-        <p>
+        <p class="date-out-input">
           <label for="date-out">Дата выезда:</label>
           <input type="text" id="date-out" name="date-out" placeholder="01.09.2020">
           <button type="button" class="text-hidden"> Выберете дату выезда
@@ -125,19 +126,21 @@
           </button>
         </p>
 
-        <p>
-          <label for="adults" class="filter-form">Взрослые:</label>
-          <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
-          <input id="adults" name="adults" type="text" value="2">
-          <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
+        <p class="adults-input">
+            <label for="adults" class="filter-form">Взрослые:</label>
+            <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
+            <input id="adults" name="adults" type="text" value="2">
+            <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
         </p>
-
-        <p>
-          <label for="children" class="filter-form">Дети:</label>
-          <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
-          <input id="children" name="children" type="text" value="0">
-          <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
+  
+        <p class="children-input">
+            <label for="children" class="filter-form">Дети:</label>
+            <button type="button" class="text-hidden">убрать человека<img src="img/minus-icon.svg" width="12" height="3" alt="minus"></button>
+            <input id="children" name="children" type="text" value="0">
+            <button type="button" class="text-hidden">добавить человека<img src="img/plus-icon.svg" width="11" height="11" alt="plus"></button>
         </p>
+        
+       
         <button class="search-button" type="submit">Найти</button>
       </form>
   </section>
@@ -148,38 +151,45 @@
   </section>
   </main>
 
-  <footer class="page-footer main-footer container">
-    <section>
-      <h2>#visitSEDONA</h2>
-      <p>ТЕЛ: +7(495) 666-01</p>
-      <ul class="footer-social">
-        <li>
-          <a class="social-button" href="#">
-            <span class="visually-hidden">Ссылка на Твиттер</span>
-              <img src="img/twitter.svg" width="17" height="17" alt="twitter">
+  <footer class="page-footer main-footer">
+    <div class="container">
+
+      <section class="footer-contacts">
+        <h2>#visitSEDONA</h2>
+        <p>ТЕЛ: +7(495) 666-01</p>
+      </section>
+
+      <section>
+       <ul class="footer-social">
+          <li>
+            <a class="social-button" href="#">
+              <span class="visually-hidden">Ссылка на Твиттер</span>
+                <img src="img/twitter.svg" width="17" height="17" alt="twitter">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <span class="visually-hidden">Ссылка на Фейсбук</span>
+                <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <span class="visually-hidden">Ссылка на Ютуб</span>
+                <img src="img/youtube.svg" width="20" height="16" alt="youtube">
+            </a>
+          </li>
+       </ul>
+      </section>
+
+      <p class="footer-copyright">
+          Website by
+          <a href="https://htmlacademy.ru">
+            <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
+            <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
           </a>
-        </li>
-        <li>
-          <a class="social-button" href="#">
-            <span class="visually-hidden">Ссылка на Фейсбук</span>
-              <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
-          </a>
-        </li>
-        <li>
-          <a class="social-button" href="#">
-            <span class="visually-hidden">Ссылка на Ютуб</span>
-              <img src="img/youtube.svg" width="20" height="16" alt="youtube">
-          </a>
-        </li>
-      </ul>
-    <p class="footer-copyright">
-      Website by
-      <a href="https://htmlacademy.ru">
-        <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
-        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
-      </a>
-    </p>
-   </section>
+      </p>
+    </div>
   </footer>
    </body>
 </html>
