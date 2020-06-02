@@ -24,7 +24,7 @@
       </nav>
     </header>
   
-    <main>
+    <main class="page-catalog container">
       <section class="hotel-filter">
         <form action="https://echo.htmlacademy.ru" method="get">
           <h3 class="filter-title">ИНФРАСТРУКТУРА:</h3>
@@ -68,7 +68,7 @@
 
         <form  class="sort" action="https://echo.htmlacademy.ru" method="get">
           <h4>НАЙДЕНО: 3</h4>
-          <fieldset>
+          <fieldset class="sort-by-filter">
             <legend>Сортировка:</legend>
                 <label>
                   <input type="radio" name="sort" value="sort-by-price">
@@ -86,7 +86,7 @@
                 </label>           
           </fieldset>
 
-          <fieldset>
+          <fieldset class="show-by-filter">
             <legend class="visually-hidden">Отобразить по возрастанию или убыванию</legend>             
                 <label class="visually-hidden">
                   По возрастанию
@@ -99,6 +99,8 @@
           </fieldset>
         </form>
 
+        <section class="show-result">
+          
           <img src="img/amara-logo.jpg" width="135" height="90" alt="Amara Hotel">
           <h3 class="hotel-title">AMARA RESORT & SPA</h3>
           <p class="hotel-cost">Гостиница от 4000 р.</p>
@@ -135,40 +137,49 @@
               <img src="img/star.svg" width="19" height="17" alt="Star">
             </div>
             <p class="hotel-rating">Рейтинг 9.2</p>
+        </section>
+  
     </main>
   
     <footer class="page-footer main-footer">
-      <section>
-        <h2>#visitSEDONA</h2>
-        <p>ТЕЛ: +7(495) 666-01</p>
-        <ul class="footer-social">
-          <li>
-            <a class="social-button" href="#">
-              <span class="visually-hidden">Ссылка на Твиттер</span>
-                <img src="img/twitter.svg" width="17" height="17" alt="twitter">
+      <div class="container">
+  
+        <section class="footer-contacts">
+          <h2>#visitSEDONA</h2>
+          <p>ТЕЛ: +7(495) 666-01</p>
+        </section>
+  
+        <section>
+         <ul class="footer-social">
+            <li>
+              <a class="social-button" href="#">
+                <span class="visually-hidden">Ссылка на Твиттер</span>
+                  <img src="img/twitter.svg" width="17" height="17" alt="twitter">
+              </a>
+            </li>
+            <li>
+              <a class="social-button" href="#">
+                <span class="visually-hidden">Ссылка на Фейсбук</span>
+                  <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
+              </a>
+            </li>
+            <li>
+              <a class="social-button" href="#">
+                <span class="visually-hidden">Ссылка на Ютуб</span>
+                  <img src="img/youtube.svg" width="20" height="16" alt="youtube">
+              </a>
+            </li>
+         </ul>
+        </section>
+  
+        <p class="footer-copyright">
+            Website by
+            <a href="https://htmlacademy.ru">
+              <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
+              <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
             </a>
-          </li>
-          <li>
-            <a class="social-button" href="#">
-              <span class="visually-hidden">Ссылка на Фейсбук</span>
-                <img src="img/fb-icon.svg" width="12" height="22" alt="facebook">
-            </a>
-          </li>
-          <li>
-            <a class="social-button" href="#">
-              <span class="visually-hidden">Ссылка на Ютуб</span>
-                <img src="img/youtube.svg" width="20" height="16" alt="youtube">
-            </a>
-          </li>
-        </ul>
-      <p class="footer-copyright">
-        Website by
-        <a href="https://htmlacademy.ru">
-          <span class="visually-hidden">Ссылка на сайт HTML Academy</span>
-          <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
-        </a>
-      </p>
-     </section>
+        </p>
+      </div>
     </footer>
      </body>
   </html>

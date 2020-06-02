@@ -540,3 +540,29 @@ border-radius: 2px;
   font-weight: normal;
   color: var(--basic-extra-dark);
 }
+
+.page-catalog {
+  outline-offset: -5px;
+  outline: 5px solid rgba(255, 0, 0, 0.7);
+}
+
+.page-catalog .hotel-filter {
+  outline-offset: -5px;
+  outline: 5px solid rgba(0, 255, 0, 0.7);
+}
+
+.sort-by-filter {
+  outline-offset: -5px;
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+}
+
+.show-by-filter {
+  outline-offset: -5px;
+  outline: 5px solid rgba(0, 0, 255, 0.7);
+}
+
+.show-result {
+  outline-offset: -5px;
+  outline: 5px solid rgba(4, 0, 255, 0.5);
+  margin: 15px;
+}
