@@ -317,6 +317,15 @@ img {
     justify-content: space-between;
 }
 
+.third-feature h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+}
+
 .features-list-internal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
