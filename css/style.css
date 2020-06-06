@@ -90,6 +90,9 @@ img {
 /* Logo */
 
 .main-header-logo {
+    position: absolute;
+    left: 1210px;
+    top: 0px;
     order: 2;
     width: 138px;
     height: 70px;
@@ -220,6 +223,9 @@ img {
 }
 
 .hotel-search {
+    position: absolute;
+    left: 673px;
+    top: 2014px;
     text-align: center;
     color: var(--basic-white);
     vertical-align: middle;
@@ -316,6 +322,8 @@ img {
 }
 
 .modal {
+    display: none;
+    position: absolute;
     color: var(--basic-black);
     background-color: var(--basic-white);
     width: 568px;
