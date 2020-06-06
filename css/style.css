@@ -71,7 +71,8 @@ img {
 }
 
 .bg {
-    border: solid 1px transparent;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 
@@ -79,7 +80,6 @@ img {
 
 .main-header {
     margin-bottom: 0;
-    border: solid 1px transparent;
 }
 
 .main-navigation-wrapper {
@@ -322,12 +322,15 @@ img {
 }
 
 .modal {
-    display: none;
     position: absolute;
     color: var(--basic-black);
     background-color: var(--basic-white);
     width: 568px;
     height: 395px;
+}
+
+.modal-hidden {
+    display: none;
 }
 
 .modal .search-button {
