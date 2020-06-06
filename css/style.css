@@ -250,6 +250,7 @@ img {
 .number-city {
    padding-left: 174px;
    padding-right: 174px;
+   white-space: nowrap;
 }
 
 .not-for-tourists {
@@ -317,15 +318,6 @@ img {
     justify-content: space-between;
 }
 
-.third-feature h3 {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    line-height: 21px;
-    align-items: center;
-    text-align: center;
-}
-
 .features-list-internal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -347,17 +339,18 @@ img {
 }
 
 .third-feature h3 {
+    margin: 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 21px;
     line-height: 21px;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
     padding-top: 47px;
 }
 
 .fourth-feature h3 {
+    margin: 0px;
     padding-top: 47px;
     font-style: normal;
     font-weight: bold;
@@ -365,10 +358,10 @@ img {
     line-height: 21px;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .fifth-feature h3 {
+    margin: 0px;
     padding-top: 47px;
     font-style: normal;
     font-weight: bold;
@@ -376,7 +369,50 @@ img {
     line-height: 21px;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
+}
+
+.third-feature p,
+.fourth-feature p,
+.fifth-feature p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: var(--basic-extra-dark);
+}
+
+.third-feature > .number-city,
+.fourth-feature > .number-city,
+.fifth-feature > .number-city {
+    padding-top: 25px;
+}
+
+.third-feature > .not-for-tourists,
+.fourth-feature > .not-for-tourists,
+.fifth-feature > .not-for-tourists {
+    padding-top: 23px;
+}
+
+.third-feature > .not-for-tourists {
+    width: 207px;
+    height: 43px;
+    padding-left: 96px;
+    margin: 0px;
+}
+
+.fourth-feature > .not-for-tourists {
+    width: 265px;
+    height: 43px;
+    padding-left: 66px;
+    margin: 0px;
+}
+
+.fifth-feature > .not-for-tourists {
+    width: 246px;
+    height: 43px;
+    margin: 0px;
 }
 
 .hotel-search {
