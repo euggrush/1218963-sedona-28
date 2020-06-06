@@ -410,15 +410,16 @@ img {
 }
 
 .fifth-feature > .not-for-tourists {
-    width: 246px;
+    width: 256px;
     height: 43px;
     margin: 0px;
+    padding-left: 73px;
 }
 
 .hotel-search {
     position: absolute;
     left: 673px;
-    top: 2075px;
+    top: 2150px;
     text-align: center;
     color: var(--basic-white);
     vertical-align: middle;
@@ -756,6 +757,13 @@ img {
     border: solid 1px transparent;
     align-items: center;
     text-align: center;
+    padding-top: 58px;
+}
+
+.booking-inner-text {
+    width: 435px;
+    height: 155px;
+    padding-left: 383px;
     padding-top: 58px;
 }
 
