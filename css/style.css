@@ -72,7 +72,9 @@ img {
 
 .bg {
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 
@@ -163,6 +165,10 @@ img {
     width: 1200px;
     height: 216px;
     background-color: var(--basic-white);
+    margin-top: -23px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .features-list {
@@ -177,6 +183,7 @@ img {
 
 .feature-item {
     text-align: center;
+    height: 256px;
 }
 
 .feature-item h3 {
@@ -188,7 +195,7 @@ img {
     background-color: var(--blue);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
     height: 260px;
 }
 
@@ -205,7 +212,7 @@ img {
     background-color: var(--blue);
     display: flex;
     justify-content: space-between;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
     height: 260px;
 }
 
