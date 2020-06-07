@@ -578,16 +578,20 @@ img {
     margin-left: 315px;
 }
 
+.modal button {
+    border: none;
+}
+
 /* .modal-hidden {
     display: none;
 } */
+
 
 .adults-children {
     border: solid 1px red;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 .adults-input {
@@ -658,17 +662,48 @@ img {
 }
 
 .date-in-input {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 38px;
     margin-top: 61px;
+    padding-right: 25px;
+    border: solid 1px purple;
+}
+
+.date-in-input label {
+    border: solid 1px purple;
+    padding-top: 6x;
+    margin-left: 55px;
+    margin-right: 10px;
 }
 
 .date-out-input {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 38px;
     margin-top: 41px;
+    border: solid 1px purple;
 }
 
-/* .adults-input,
-.children-input {
-    display: flex;
-} */
+.date-out-input label {
+    border: solid 1px purple;
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+.date-in-input input,
+.date-out-input input {
+    width: 310px;
+    height: 34px;
+    border: solid 1px yellowgreen;
+}
+
+.date-in-input button,
+.date-out-input button {
+    height: 38px;
+}
 
 .sort {
     background-color: var(--basic-white);
