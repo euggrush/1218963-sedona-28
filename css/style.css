@@ -516,8 +516,9 @@ img {
     width: 150px;
     padding-right: 0px;
     padding-left: 0px;
-    
-    border: solid 1px black;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    margin-left: 140px;
 }
 
 .main-footer .footer-social li {
@@ -534,6 +535,18 @@ img {
 
 .footer-social li:active {
     background-color: var(--dark-blue);
+}
+
+.social-button .twitter-logo {
+    margin-top: 16px;
+}
+
+.social-button .facebook-logo {
+    margin-top: 13px;
+}
+
+.social-button .youtube-logo {
+    margin-top: 16px;
 }
 
 .footer-copyright {
