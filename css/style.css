@@ -488,22 +488,43 @@ img {
 }
 
 .footer-contacts {
-    margin-left: 117px;
+    padding: 0;
+    margin-left: 111px;
+    margin-top: 23px;
+    margin-bottom: 36px;
     width: 251px;
+    text-align: center;
 }
 
-.footer-social li {
-    width: 46px;
-    height: 48px;
-    background-color: var(--blue);
+.footer-contacts h2,
+.footer-contacts p {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+
 }
 
 .footer-social {
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 150px;
-    justify-self: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+    border: solid 1px black;
+}
+
+.main-footer .footer-social li {
+    width: 46px;
+    height: 48px;
+    background-color: var(--blue);
+    
 }
 
 .footer-social li:hover,
@@ -515,12 +536,33 @@ img {
     background-color: var(--dark-blue);
 }
 
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer-copyright img {
+    padding-left: 10px;
+}
+
+/* MODAL */
+
 .modal {
     position: absolute;
     color: var(--basic-black);
     background-color: var(--basic-white);
     width: 568px;
     height: 395px;
+
+    border: solid 1px transparent;
+    margin-left: 315px;
 }
 
 .modal-hidden {
@@ -743,11 +785,6 @@ img {
 .show-button:hover {
     color: var(--basic-black);
     background-color: var(--basic-white);
-}
-
-.modal {
-    border: solid 1px transparent;
-    margin-left: 315px;
 }
 
 .booking {
