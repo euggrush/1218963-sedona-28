@@ -588,10 +588,11 @@ img {
 
 
 .adults-children {
-    border: solid 1px red;
+    border: solid 1px transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .adults-input {
@@ -601,30 +602,30 @@ img {
 }
 
 .adults-input label {
-    border: solid 1px blue;
+    border: solid 1px transparent;
     padding-left: 55px;
 }
 
 .children-input label {
-    border: solid 1px greenyellow;
+    border: solid 1px transparent;
 }
 
 .adults-children input {
     width: 38px;
-    height: 40px;
+    height: 39px;
     padding: 0;
     text-align: center;
 }
 
 .plus-minus-wrapper {
     display: flex;
-    border: solid 1px black;
+    border: solid 1px transparent;
     width: 115;
     height: 39;
 }
 
 .plus-minus-wrapper:nth-of-type(2) {
-    border: solid 1px purple;
+    border: solid 1px transparent;
     margin-right: 25px;
 }
 
@@ -666,13 +667,13 @@ img {
     justify-content: end;
     align-items: center;
     height: 38px;
-    margin-top: 61px;
+    margin-top: 55px;
     padding-right: 25px;
-    border: solid 1px purple;
+    border: solid 1px transparent;
 }
 
 .date-in-input label {
-    border: solid 1px purple;
+    border: solid 1px transparent;
     padding-top: 6x;
     margin-left: 55px;
     margin-right: 10px;
@@ -683,12 +684,12 @@ img {
     justify-content: end;
     align-items: center;
     height: 38px;
-    margin-top: 41px;
-    border: solid 1px purple;
+    margin-top: 29px;
+    border: solid 1px transparent;
 }
 
 .date-out-input label {
-    border: solid 1px purple;
+    border: solid 1px transparent;
     margin-left: 55px;
     margin-right: 10px;
 }
@@ -697,7 +698,7 @@ img {
 .date-out-input input {
     width: 310px;
     height: 34px;
-    border: solid 1px yellowgreen;
+    border: solid 1px transparent;
 }
 
 .date-in-input button,
