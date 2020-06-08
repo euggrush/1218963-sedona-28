@@ -94,7 +94,7 @@ img {
 .main-header-logo {
     position: absolute;
     left: 47.5%;
-    top: 0px;
+    top: 0%;
     order: 2;
     width: 138px;
     height: 70px;
@@ -418,8 +418,8 @@ img {
 
 .hotel-search {
     position: absolute;
-    left: 29.6%
-    top: 2150px;
+    left: 39.6%;
+    top: 2149px;
     text-align: center;
     color: var(--basic-white);
     vertical-align: middle;
@@ -432,7 +432,6 @@ img {
     font-size: 21px;
     width: 568px;
     height: 86px;
-    margin-left: 316px;
 }
 
 .hotel-search:hover {
@@ -569,13 +568,12 @@ img {
 
 .modal {
     position: absolute;
+    left: 39.6%;
     color: var(--basic-black);
     background-color: var(--basic-white);
     width: 568px;
     height: 395px;
-
     border: solid 1px transparent;
-    margin-left: 315px;
 }
 
 .modal button {
