@@ -35,38 +35,59 @@
 
         <div class="infrastructure">
           <h3 class="filter-title">ИНФРАСТРУКТУРА:</h3>
-          <label>
-            <input type="checkbox" name="pool" id="pool">
-            БАССЕЙН
-          </label>
 
-          <label>
-            <input type="checkbox" name="parking" id="parking">
-            ПАРКОВКА
-          </label>
+          <div class="filter-checkbox-wrapper">
+            <img src="img/checkbox-on.png" width="23" height="23" alt="checkbox-on">
+            <label>
+                <input type="checkbox" name="pool" id="pool">
+                БАССЕЙН
+              </label>
+          </div>
 
-          <label>
-            <input type="checkbox" name="wifi" id="wifi">
-            Wi-Fi
-          </label>
+          <div class="filter-checkbox-wrapper">
+            <img src="img/checkbox-off.svg" width="23" height="23" alt="checkbox-off">
+            <label>
+                <input type="checkbox" name="parking" id="parking">
+                ПАРКОВКА
+              </label>
+          </div>
+
+          <div class="filter-checkbox-wrapper">
+            <img src="img/checkbox-off.svg" width="23" height="23" alt="checkbox-off">
+            <label>
+                <input type="checkbox" name="wifi" id="wifi">
+                Wi-Fi
+              </label>
+          </div>
         </div>
 
         <div class="type-of-hotel">
           <h3 class="filter-title">Тип жилья:</h3>
-          <label>
-            <input type="checkbox" name="hotel" id="hotel">
-            ГостиницА
-          </label>
 
-          <label>
-            <input type="checkbox" name="motel" id="motel">
-            МОТЕЛЬ
-          </label>
+          <div class="filter-checkbox-wrapper">
+            <img src="img/checkbox-on.png" width="23" height="23" alt="checkbox-on">
+            <label>
+                <input type="checkbox" name="hotel" id="hotel">
+                ГостиницА
+              </label>
+          </div>
 
-          <label>
-            <input type="checkbox" name="apartment" id="apartment">
-            АПАРТАМЕНТЫ
-          </label>
+          <div class="filter-checkbox-wrapper">
+            <img src="img/checkbox-on.png" width="23" height="23" alt="checkbox-on">
+            <label>
+                <input type="checkbox" name="motel" id="motel">
+                МОТЕЛЬ
+              </label>
+          </div>
+
+          <div class="filter-checkbox-wrapper">
+            <img src="img/checkbox-on.png" width="23" height="23" alt="checkbox-on">
+            <label>
+                <input type="checkbox" name="apartment" id="apartment">
+                АПАРТАМЕНТЫ
+              </label>
+          </div>
+
         </div>
 
         <div class="cost-per-day">
@@ -132,10 +153,12 @@
                 По возрастанию
                 <input type="radio" name="up-down" value="up">
               </label>
+              <img src="img/icon-up-dir.svg" width="11" height="10" alt="up">
               <label class="visually-hidden">
                 По убыванию
                 <input type="radio" name="up-down" value="down">
               </label>
+              <img src="img/icon-down-dir.svg" width="11" height="10" alt="down">
             </fieldset>
           </form>
       

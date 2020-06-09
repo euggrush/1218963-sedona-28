@@ -728,6 +728,7 @@ img {
     margin-left: 419px;
     margin-top: 40px;
     padding: 0;
+    border: solid 1px transparent;
 }
 
 .sort h4 {
@@ -869,15 +870,28 @@ img {
 }
 
 .infrastructure label,
-.type-of-hotel label,
-.cost-per-day h3,
-.cost-per-day input,
-.cost-per-day button {
+.type-of-hotel label {
     display: block;
+    
+}
+
+.filter-checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 23px;
+    margin-top: 25px;
+    padding: 0;
 }
 
 .infrastructure {
     margin-left: 71px;
+}
+
+.infrastructure input,
+.type-of-hotel input {
+    display: none;
 }
 
 .type-of-hotel {
@@ -894,6 +908,9 @@ img {
 .hotel-filter .filter-title {
     font-size: 16px;
     line-height: 21px;
+    margin-top: 26px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .hotel-filter label {
@@ -901,6 +918,7 @@ img {
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
+    padding-left: 18px;
 }
 
 .show-button {
