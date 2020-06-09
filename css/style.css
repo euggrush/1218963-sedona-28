@@ -914,7 +914,6 @@ img {
 
 .result-item {
     display: flex;
-    text-align: end;
     background-color: var(--basic-white);
     border: solid 1px var(--extra-white);
     padding-bottom: 30px;
@@ -928,6 +927,7 @@ img {
 
 .stars {
     border: solid 1px transparent;
+    text-align: end;
     margin-left: 522px;
 }
 
