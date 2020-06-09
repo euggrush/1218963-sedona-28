@@ -705,15 +705,52 @@ img {
     height: 38px;
 }
 
+/* СОРТИРОВКА */
+
 .sort {
     background-color: var(--basic-white);
     display: flex;
     height: 86px;
 }
 
+.sort-by-filter {
+    width: 354px;
+    height: 20px;
+    padding: 0;
+    margin-top: 30px;
+    margin-left: 0;
+    border: solid 1px transparent;
+}
+
+.show-by-filter {
+    width: 35px;
+    height: 11px;
+    margin-left: 419px;
+    margin-top: 40px;
+    padding: 0;
+}
+
 .sort h4 {
     font-size: 21px;
     line-height: 26px;
+    margin-left: 73px;
+    border: solid 1px transparent;
+}
+
+.sort-title {
+    border: solid 1px transparent;
+    width: 76px;
+    height: 19px;
+
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 31px;
+    margin-left: 46px;
 }
 
 .sort legend {
@@ -733,6 +770,7 @@ img {
     mix-blend-mode: normal;
     opacity: 0.3;
     border-bottom: 1px dashed var(--blue);
+    margin-left: 40px;
 }
 
 .sort label:hover {
@@ -951,6 +989,8 @@ img {
 .show-result {
     margin-bottom: 0;
 }
+
+/* Range-Filter */
 
 .filter-item {
     margin: 0;
