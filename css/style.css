@@ -899,10 +899,14 @@ img {
 }
 
 .cost-per-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     margin-left: 348px;
     border: solid 1px black;
     width: 317px;
-    height: 158px;
+    height: auto;
 }
 
 .hotel-filter .filter-title {
@@ -1010,6 +1014,7 @@ img {
 
 /* Range-Filter */
 
+
 .filter-item {
     margin: 0;
     padding: 0;
@@ -1030,8 +1035,8 @@ img {
 
 .range-controls {
     position: relative;
-    height: 41px;
-    background-color: #f1f1f1;
+    height: auto;
+    background-color: transparent;
     border-radius: 5px;
     margin-bottom: 15px;
     padding-top: 39px;
