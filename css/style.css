@@ -904,9 +904,10 @@ img {
     justify-content: space-around;
     align-items: center;
     margin-left: 348px;
-    border: solid 1px black;
+    border: solid 1px transparent;
     width: 317px;
     height: auto;
+    margin-top: 26px;
 }
 
 .hotel-filter .filter-title {
@@ -936,6 +937,7 @@ img {
     height: 36px;
     border: 2px solid var(--basic-white);
     border-radius: 2px;
+    margin-bottom: 32px;
 }
 
 .show-button:hover {
@@ -1022,7 +1024,7 @@ img {
 }
 
 .range-filter {
-    width: auto;
+    width: 317px;
     
 }
 
@@ -1040,13 +1042,13 @@ img {
     border-radius: 5px;
     margin-bottom: 15px;
     padding-top: 39px;
-    padding-right: 20px;
-    padding-left: 20px;
+    
 }
 
 .range-controls .scale {
     height: 2px;
     background: #d7dcde;
+    width: 316px;
 }
 
 .range-controls .bar {
@@ -1078,9 +1080,14 @@ img {
 }
 
 .price-controls label {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
     text-transform: uppercase;
-    font-family: "Roboto", "Arial", sans-serif;
-    font-size: 16px;
 }
 
 .price-controls input {
@@ -1088,10 +1095,10 @@ img {
     padding: 10px;
     margin-left: 10px;
     text-align: center;
-    color: #283136;
+    color: var(--basic-white);
     border: none;
     border-radius: 5px;
-    background: #f1f1f1;
+    background: transparent;
     font-family: inherit;
     font-size: inherit;
 }
@@ -1099,4 +1106,17 @@ img {
 .price-controls {
     display: flex;
     justify-content: space-between;
+    border: solid 2px var(--basic-white);
+    width: 317px;
+    height: 36px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.splitter {
+    width: 2px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    align-self: center;
 }
