@@ -541,7 +541,9 @@ img {
 
 .modal {
     position: absolute;
-    left: 38.802%;
+    left: 0;
+    right: 0;
+    margin: auto;
     color: var(--basic-black);
     background-color: var(--basic-white);
     width: 568px;
