@@ -937,6 +937,7 @@ img {
     width: 568px;
     height: 86px;
     padding-left: 0px;
+    padding-right: 0px;
 }
 
 .hotel-search:hover {
@@ -955,7 +956,7 @@ img {
     border: solid 1px transparent;
     align-items: center;
     text-align: center;
-    padding-top: 58px;
+    /* padding-top: 58px; */
 }
 
 .booking-inner-text {
@@ -1088,16 +1089,17 @@ img {
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
-    align-items: center;
     text-align: center;
     text-transform: uppercase;
+    padding-left: 20px;
 }
 
 .price-controls input {
     width: 60px;
     padding: 10px;
-    margin-left: 10px;
-    text-align: center;
+    margin-left: 0px;
+    padding-left: 5px;
+    text-align: left;
     color: var(--basic-white);
     border: none;
     border-radius: 5px;
@@ -1108,7 +1110,7 @@ img {
 
 .price-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border: solid 2px var(--basic-white);
     width: 317px;
     height: 36px;
