@@ -416,34 +416,6 @@ img {
     padding-left: 73px;
 }
 
-.hotel-search {
-    position: absolute;
-    left: 29.6%;
-    top: 2149px;
-    /* margin: 0 auto; */
-    text-align: center;
-    color: var(--basic-white);
-    vertical-align: middle;
-    text-transform: uppercase;
-    background-color: var(--basic-brown);
-    border: none;
-    font-family: PT Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 21px;
-    width: 568px;
-    height: 86px;
-}
-
-.hotel-search:hover {
-    background-color: var(--extra-brown);
-}
-
-.hotel-search:active {
-    background-color: var(--second-extra-brown);
-    opacity: 0.3;
-}
-
 
 /* Appointment */
 
@@ -943,6 +915,35 @@ img {
 .show-button:hover {
     color: var(--basic-black);
     background-color: var(--basic-white);
+}
+
+/* BOOKING SECTION */
+
+.hotel-search {
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: center;
+    color: var(--basic-white);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--basic-brown);
+    border: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    width: 568px;
+    height: 86px;
+    padding-left: 0px;
+}
+
+.hotel-search:hover {
+    background-color: var(--extra-brown);
+}
+
+.hotel-search:active {
+    background-color: var(--second-extra-brown);
+    opacity: 0.3;
 }
 
 .booking {
