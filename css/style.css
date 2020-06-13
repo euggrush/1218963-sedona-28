@@ -114,15 +114,20 @@ img {
     justify-content: space-between;
     list-style: none;
     width: 1056px;
-    margin-top: 15px;
+    margin-top: 14px;
     margin-bottom: 15px;
     padding-right: 72px;
     padding-left: 72px;
 }
 
 .site-navigation li:nth-child(2) {
-    margin-right: 350px;
+    margin-right: 282px;
 }
+
+.site-navigation li:nth-child(3) {
+    margin-right: 11px;
+}
+
 
 .main-navigation {
     display: flex;
@@ -175,7 +180,7 @@ img {
     padding-bottom: 0px;
 }
 
-.features-background-top > h1 {
+.features-background-top>h1 {
     font-size: 21px;
     line-height: 26px;
     align-items: center;
@@ -183,7 +188,7 @@ img {
     padding-top: 41px;
 }
 
-.features-background-top > h2 {
+.features-background-top>h2 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -248,9 +253,9 @@ img {
 }
 
 .number-city {
-   padding-left: 174px;
-   padding-right: 174px;
-   white-space: nowrap;
+    padding-left: 174px;
+    padding-right: 174px;
+    white-space: nowrap;
 }
 
 .not-for-tourists {
@@ -383,33 +388,33 @@ img {
     color: var(--basic-extra-dark);
 }
 
-.third-feature > .number-city,
-.fourth-feature > .number-city,
-.fifth-feature > .number-city {
+.third-feature>.number-city,
+.fourth-feature>.number-city,
+.fifth-feature>.number-city {
     padding-top: 25px;
 }
 
-.third-feature > .not-for-tourists,
-.fourth-feature > .not-for-tourists,
-.fifth-feature > .not-for-tourists {
+.third-feature>.not-for-tourists,
+.fourth-feature>.not-for-tourists,
+.fifth-feature>.not-for-tourists {
     padding-top: 23px;
 }
 
-.third-feature > .not-for-tourists {
+.third-feature>.not-for-tourists {
     width: 207px;
     height: 43px;
     padding-left: 96px;
     margin: 0px;
 }
 
-.fourth-feature > .not-for-tourists {
+.fourth-feature>.not-for-tourists {
     width: 265px;
     height: 43px;
     padding-left: 66px;
     margin: 0px;
 }
 
-.fifth-feature > .not-for-tourists {
+.fifth-feature>.not-for-tourists {
     width: 256px;
     height: 43px;
     margin: 0px;
@@ -477,7 +482,6 @@ img {
     font-size: 21px;
     line-height: 26px;
     text-align: center;
-
 }
 
 .footer-social {
@@ -497,7 +501,6 @@ img {
     width: 46px;
     height: 48px;
     background-color: var(--blue);
-    
 }
 
 .footer-social li:hover,
@@ -537,6 +540,7 @@ img {
     padding-left: 10px;
 }
 
+
 /* MODAL */
 
 .modal {
@@ -558,7 +562,6 @@ img {
 .modal-hidden {
     display: none;
 }
-
 
 .adults-children {
     border: solid 1px transparent;
@@ -679,6 +682,7 @@ img {
     height: 38px;
 }
 
+
 /* СОРТИРОВКА */
 
 .sort {
@@ -716,8 +720,6 @@ img {
     border: solid 1px transparent;
     width: 76px;
     height: 19px;
-
-    
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -839,14 +841,13 @@ img {
     height: 217px;
     background-color: var(--basic-black);
     color: var(--basic-white);
-    background-image: url("/img/filter.png");
+    background-image: url("../img/filter.png");
     background-repeat: no-repeat;
 }
 
 .infrastructure label,
 .type-of-hotel label {
     display: block;
-    
 }
 
 .filter-checkbox-wrapper {
@@ -919,6 +920,7 @@ img {
     background-color: var(--basic-white);
 }
 
+
 /* BOOKING SECTION */
 
 .hotel-search {
@@ -986,6 +988,8 @@ img {
 }
 
 .result-item>img {
+    width: 135px;
+    height: 90px;
     margin-left: 73px;
     margin-top: 30px;
     border: solid 1px transparent;
@@ -1018,8 +1022,8 @@ img {
     margin-bottom: 0;
 }
 
-/* Range-Filter */
 
+/* Range-Filter */
 
 .filter-item {
     margin: 0;
@@ -1029,7 +1033,6 @@ img {
 
 .range-filter {
     width: 317px;
-    
 }
 
 .filter-item legend {
@@ -1046,19 +1049,18 @@ img {
     border-radius: 5px;
     margin-bottom: 15px;
     padding-top: 39px;
-    
 }
 
 .range-controls .scale {
     height: 2px;
-    background: #d7dcde;
+    background: var(--basic-white);
     width: 316px;
+    opacity: 0.3;
 }
 
 .range-controls .bar {
     width: 70%;
     height: 2px;
-    background: #00ca74;
 }
 
 .range-controls .toggle {
@@ -1075,12 +1077,16 @@ img {
     cursor: pointer;
 }
 
+.toggle:hover {
+    transform: scale(1.2);
+}
+
 .range-controls .toggle-min {
-    left: 18px;
+    left: 0px;
 }
 
 .range-controls .toggle-max {
-    left: 160px;
+    left: 250px;
 }
 
 .price-controls label {
