@@ -998,7 +998,8 @@ img {
 .stars {
     border: solid 1px transparent;
     text-align: end;
-    margin-left: 522px;
+    margin-left: 516px;
+    margin-right: 73px;
 }
 
 .stars p {
