@@ -185,7 +185,7 @@ img {
     line-height: 26px;
     align-items: center;
     text-align: center;
-    padding-top: 41px;
+    padding-top: 43px;
 }
 
 .features-background-top>h2 {
@@ -196,7 +196,7 @@ img {
     align-items: center;
     text-align: center;
     color: var(--basic-extra-dark);
-    padding-top: 16px;
+    padding-top: 29px;
 }
 
 .features-list {
