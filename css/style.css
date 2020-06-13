@@ -1053,14 +1053,14 @@ img {
 
 .range-controls .scale {
     height: 2px;
-    background: var(--basic-white);
+    background: rgba(255, 255, 255, 0.3);;
     width: 316px;
-    opacity: 0.3;
 }
 
-.range-controls .bar {
-    width: 70%;
+.range-controls .scale .bar {
+    width: 80%;
     height: 2px;
+    background: var(--basic-white);
 }
 
 .range-controls .toggle {
