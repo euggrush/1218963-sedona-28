@@ -579,12 +579,22 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.main-footer h2,
-.main-footer p {
+.main-footer .footer-contacts-title,
+.main-footer .footer-contacts-phone {
     font-size: 21px;
     line-height: 26px;
     text-transform: uppercase;
     color: var(--basic-black);
+}
+
+.footer-contacts-title {
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.footer-contacts-phone {
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .main-footer li {
@@ -594,13 +604,14 @@ img {
 .footer-contacts {
     padding: 0;
     margin-left: 111px;
-    margin-top: 23px;
-    margin-bottom: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 251px;
     text-align: center;
+    border: solid 1px black;
 }
 
-.footer-contacts h2,
+/* .footer-contacts h2,
 .footer-contacts p {
     margin: 0;
     padding: 0;
@@ -609,7 +620,7 @@ img {
     font-size: 21px;
     line-height: 26px;
     text-align: center;
-}
+} */
 
 .footer-social {
     text-align: center;
