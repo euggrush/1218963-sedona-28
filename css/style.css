@@ -695,7 +695,7 @@ img {
     color: var(--basic-black);
     background-color: var(--basic-white);
     width: 568px;
-    height: 395px;
+    height: 391px;
     border: solid 1px transparent;
 }
 
@@ -712,21 +712,34 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .adults-input {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 0px;
-}
-
-.adults-input label {
+    display: flex;
+    margin: 0;
+    padding: 0;
     border: solid 1px transparent;
-    padding-left: 55px;
 }
 
-.children-input label {
+.adults-input-label {
+    padding-top: 11px;
+    padding-left: 53px;
+    margin: 0;
+    border: solid 1px transparent;
+}
+
+.children-input {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    border: solid 1px transparent;
+}
+
+.children-input-label {
+    padding-top: 7px;
+    margin-left: 59px;
+    margin: 0;
     border: solid 1px transparent;
 }
 
@@ -737,16 +750,22 @@ img {
     text-align: center;
 }
 
-.plus-minus-wrapper {
+.adults-plus-minus-wrapper {
     display: flex;
     border: solid 1px transparent;
-    width: 115;
-    height: 39;
+    width: 115px;
+    /* height: 38px; */
+    padding-top: 3px;
+    padding-left: 37px;
 }
 
-.plus-minus-wrapper:nth-of-type(2) {
+.children-plus-minus-wrapper {
+    display: flex;
     border: solid 1px transparent;
-    margin-right: 25px;
+    width: 115px;
+    height: 39px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
 
 .plus-minus-button {
@@ -794,8 +813,15 @@ img {
 
 .date-in-input label {
     border: solid 1px transparent;
-    padding-top: 6x;
-    margin-left: 55px;
+    margin-top: -10px;
+    margin-left: 53px;
+    margin-right: 15px;
+}
+
+.date-out-input label {
+    border: solid 1px transparent;
+    margin-top: -14px;
+    margin-left: 53px;
     margin-right: 10px;
 }
 
@@ -808,11 +834,11 @@ img {
     border: solid 1px transparent;
 }
 
-.date-out-input label {
+/* .date-out-input label {
     border: solid 1px transparent;
     margin-left: 55px;
     margin-right: 10px;
-}
+} */
 
 .date-in-input input,
 .date-out-input input {
@@ -821,11 +847,38 @@ img {
     border: solid 1px transparent;
 }
 
-.date-in-input button,
-.date-out-input button {
+.date-in-input button {
+    width: 33px;
     height: 38px;
+    margin-top: -9px;
+    margin-left: -4px;
+}
+.date-out-input button {
+    width: 33px;
+    height: 38px;
+    margin-top: -12px;
+    margin-left: -3px;
 }
 
+.date-in-input input {
+    margin-top: -9px;
+    margin-left: 9px;
+}
+
+.date-out-input input {
+    margin-top: -12px;
+    margin-left: 9px;
+}
+
+.calendar-icon-one {
+    margin-top: 0px;
+    margin-left: -6px;
+}
+
+.calendar-icon-two {
+    margin-top: 0px;
+    margin-left: -4px;
+}
 
 /* СОРТИРОВКА */
 
