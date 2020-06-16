@@ -1335,14 +1335,38 @@ img {
 }
 
 ::placeholder { 
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 26px;
-align-items: center;
-text-transform: uppercase;
-color: var(--basic-black);
-padding-top: -1px;
-padding-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--basic-black);
+    padding-top: -1px;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--basic-black);
+    padding-top: -1px;
+    padding-left: 10px;
+}
+  
+  :-ms-input-placeholder { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--basic-black);
+    padding-top: -1px;
+    padding-left: 10px;
 }
   
