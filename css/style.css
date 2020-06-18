@@ -1386,15 +1386,61 @@ img {
     text-align: center;
     text-transform: uppercase;
     padding: 0px;
-    /* padding-left: 20px; */
+}
+
+/* .min-price-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.max-price-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+} */
+
+.filter-item .min-price-input {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; */
+    width: 70px; 
+}
+
+.filter-item .max-price-input {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; */
+    width: 70px; 
+}
+
+.price-controls .min-price-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.price-controls .max-price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .price-controls input {
-    width: 60px;
+    /* width: 60px;
     padding: 10px;
     margin-left: 0px;
     padding-left: 5px;
-    text-align: left;
+    text-align: left; */
     color: var(--basic-white);
     border: none;
     border-radius: 5px;

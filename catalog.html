@@ -101,15 +101,20 @@
               <div class="range-filter">
 
                 <div class="price-controls">
-                    <label class="min-price">
-                      от <input type="number" name="min-price" value="0">
-                    </label>
-                    <p class="splitter">|</p>
-                    <label class="max-price">
-                      до <input type="number" name="max-price" value="3000">
-                    </label>
-  
+
+                  <div class="min-price-wrapper">
+                    <label class="min-price-label" for='min-price'>от</label>
+                    <input class="min-price-input" type="number" id="min-price" name="min-price" value="0">
                   </div>
+
+                  <p class="splitter">|</p>
+
+                  <div class="max-price-wrapper">
+                    <label class="max-price-label" for='max-price'>до</label>
+                    <input class="max-price-input" type="number" id="max-price" name="max-price" value="3000">
+                  </div>
+
+                </div>
 
                 <div class="range-controls">
                   <div class="scale">
