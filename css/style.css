@@ -1172,11 +1172,6 @@ img {
 }
 
 .show-button {
-    font-weight: normal;
-    line-height: 21px;
-    align-items: center;
-    text-transform: uppercase;
-    color: var(--basic-white);
     background-color: transparent;
     width: 137px;
     height: 36px;
@@ -1189,6 +1184,18 @@ img {
 .show-button:hover {
     color: var(--basic-black);
     background-color: var(--basic-white);
+}
+
+.show-button span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--basic-white);
+    /* margin-top: 0px; */
+    margin-left: 1px;
 }
 
 
@@ -1378,7 +1385,8 @@ img {
     line-height: 21px;
     text-align: center;
     text-transform: uppercase;
-    padding-left: 20px;
+    padding: 0px;
+    /* padding-left: 20px; */
 }
 
 .price-controls input {
