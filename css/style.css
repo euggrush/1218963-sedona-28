@@ -1227,7 +1227,6 @@ img {
 }
 
 .show-button:hover {
-    color: var(--basic-black);
     background-color: var(--basic-white);
 }
 
@@ -1241,6 +1240,10 @@ img {
     color: var(--basic-white);
     /* margin-top: 0px; */
     margin-left: 1px;
+}
+
+.show-button:hover span {
+    color: var(--basic-black);
 }
 
 
