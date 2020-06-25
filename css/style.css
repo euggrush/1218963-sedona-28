@@ -171,7 +171,8 @@ img {
 
 .features-background-top {
   width: 1200px;
-  height: 216px;
+  min-height: 216px;
+  height: 100%;
   background-color: var(--basic-white);
   margin-top: -23px;
   margin-bottom: 0px;
@@ -196,6 +197,7 @@ img {
   text-align: center;
   color: var(--basic-extra-dark);
   padding-top: 29px;
+  margin-bottom: 0px;
 }
 
 .features-list {
@@ -670,22 +672,31 @@ img {
   padding-left: 8px;
 }
 
+/* .footer-copyright img:hover {
+    background: url("../img/logo-htmlacademy-hover.svg");
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 41px;
+    padding-top: 4px;
+    padding-left: 8px;
+  } */
+
 .inner-page .footer-contacts {
-    padding-top: 2px;
+  padding-top: 2px;
 }
 
 .inner-page .footer-social {
-    padding-top: 38px;
-    padding-left: 0px;
+  padding-top: 38px;
+  padding-left: 0px;
 }
 
 .inner-page .footer-copyright {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 .inner-page .footer-copyright img {
-    padding-top: 9px;
-    padding-left: 5px;
+  padding-top: 9px;
+  padding-left: 5px;
 }
 
 
@@ -717,7 +728,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-top: 30px; */
 }
 
 .adults-input {
@@ -772,12 +782,25 @@ img {
   margin-right: 51px;
 }
 
+.adults-plus-minus-wrapper input:focus,
+.children-plus-minus-wrapper input:focus {
+  outline: none;
+  box-shadow: 0 0 0 var(--light-grey);
+}
+
 .plus-minus-button {
   width: 38px;
   height: 41px;
   border: none;
   padding: 0;
+  cursor: pointer;
 }
+
+.plus-minus-button:focus {
+  outline: none;
+  box-shadow: 0 0 1px var(--light-grey);
+}
+
 
 .modal .search-button {
   width: 458px;
@@ -790,6 +813,7 @@ img {
   border: solid 1px transparent;
   margin-left: 55px;
   margin-top: 51px;
+  cursor: pointer;
 }
 
 .modal .search-button:hover {
@@ -838,17 +862,16 @@ img {
   border: solid 1px transparent;
 }
 
-/* .date-out-input label {
-    border: solid 1px transparent;
-    margin-left: 55px;
-    margin-right: 10px;
-} */
-
 .date-in-input input,
 .date-out-input input {
   width: 310px;
   height: 34px;
-  border: solid 1px transparent;
+}
+
+.date-in-input input:focus,
+.date-out-input input:focus {
+  outline: none;
+  box-shadow: 0 0 1px var(--light-grey);
 }
 
 .date-in-input button {
@@ -856,6 +879,7 @@ img {
   height: 38px;
   margin-top: -9px;
   margin-left: -4px;
+  cursor: pointer;
 }
 
 .date-out-input button {
@@ -863,6 +887,13 @@ img {
   height: 38px;
   margin-top: -12px;
   margin-left: -3px;
+  cursor: pointer;
+}
+
+.date-in-input button:focus,
+.date-out-input button:focus {
+  outline: none;
+  box-shadow: 0 0 1px var(--light-grey);
 }
 
 .date-in-input input {
@@ -900,18 +931,17 @@ img {
   margin-top: 27px;
   margin-left: 0;
   border: solid 1px transparent;
+  cursor: pointer;
+}
+
+.sort-by-filter label {
+  cursor: pointer;
 }
 
 .show-by-filter {
-  /* width: 38px; */
-  /* height: 23px; */
   margin-left: 410px;
-  /* margin-top: 40px; */
-  /* padding-top: 0px; */
-  /* padding-bottom: 9px; */
-  /* padding-left: 3px; */
-  /* padding-right: 0px; */
   border: solid 1px transparent;
+  cursor: pointer;
 }
 
 .sort h4 {
@@ -1012,7 +1042,6 @@ img {
 .hotel-type-span {
   display: inline-block;
   width: 111px;
-  margin-left: 0px;
 }
 
 .hotel-cost-span {
@@ -1036,6 +1065,7 @@ img {
   background-color: var(--blue);
   border: solid 1px transparent;
   margin-bottom: 0px;
+  margin-left: -3px;
 }
 
 .about-hotel:hover {
@@ -1054,6 +1084,7 @@ img {
   border: solid 1px transparent;
   width: 142px;
   height: 27px;
+  margin-left: 3px;
 }
 
 .book-hotel:hover {
@@ -1062,6 +1093,20 @@ img {
 
 .book-hotel:active {
   background-color: var(--second-extra-brown);
+}
+
+.about-hotel-span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 3px;
+}
+
+.book-hotel-span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: -1px;
 }
 
 .hotel-rating {
@@ -1276,6 +1321,7 @@ img {
   height: 87px;
   padding-left: 0px;
   padding-right: 0px;
+  cursor: pointer;
 }
 
 .hotel-search:hover {
@@ -1341,8 +1387,7 @@ img {
 .stars {
   border: solid 1px transparent;
   text-align: end;
-  margin-left: 521px;
-  /* margin-right: 73px; */
+  margin-left: 518px;
 }
 
 .stars img {
@@ -1353,7 +1398,7 @@ img {
 .hotel-info {
   width: 258px;
   height: auto;
-  margin-left: 29px;
+  margin-left: 32px;
   margin-right: -3px;
 }
 
