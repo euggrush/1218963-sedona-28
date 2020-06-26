@@ -676,13 +676,12 @@ img {
   padding-left: 8px;
 }
 
+.footer-copyright svg path {
+    fill: blue;
+  }
+
 /* .footer-copyright img:hover {
-    background: url("../img/logo-htmlacademy-hover.svg");
-    background-repeat: no-repeat;
-    width: 115px;
-    height: 41px;
-    padding-top: 4px;
-    padding-left: 8px;
+    fill: #669EC0 !important;
   } */
 
 .inner-page .footer-contacts {
