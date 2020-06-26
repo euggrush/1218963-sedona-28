@@ -1339,12 +1339,12 @@ img {
 
 .booking {
   width: auto;
-  height: 291px;
+  min-height: 291px;
+  height: 100%;
   background-color: var(--basic-white);
   border: solid 1px transparent;
   align-items: center;
   text-align: center;
-  /* padding-top: 58px; */
 }
 
 .booking-inner-text {
