@@ -17,6 +17,7 @@
   --extra-white: #E5E5E5;
   --grey: #666666;
   --light-grey: #cacaca;
+  --logo-black: #231F20;
 }
 
 
@@ -671,15 +672,16 @@ img {
   line-height: 26px;
 }
 
-.footer-copyright img {
+.footer-copyright svg {
   padding-top: 4px;
   padding-left: 8px;
+  fill: #231F20;
 }
 
 
-/* .footer-copyright img:hover {
-    fill: #669EC0 !important;
-  } */
+.footer-copyright svg:hover {
+    fill: #669EC0;
+  }
 
 .inner-page .footer-contacts {
   padding-top: 2px;
