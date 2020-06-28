@@ -1001,6 +1001,12 @@ img {
 }
 
 .sort label:active {
+    mix-blend-mode: unset;
+    opacity: 1;
+    color: var(--basic-black);
+  }
+
+.sort label:active {
   border: none;
 }
 
