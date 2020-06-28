@@ -6,12 +6,16 @@ let adultsNumber = document.querySelector('.adults-number');
 let childrenNumber = document.querySelector('.children-nubmer');
 let plusMinusBtn = document.querySelectorAll('.plus-minus-button');
 let bookForm = document.querySelector('.book-form');
+let searchButton = document.querySelector('.search-button');
 
 var isStorageSupport = true;
-var storage = "";
+var storage1 = "";
+var storage2 = "";
 
 try {
-  storage = localStorage.getItem("date-in");
+  storage1 = localStorage.getItem("adult-num");
+  storage2 = localStorage.getItem("child-num");
+
 } catch (err) {
   isStorageSupport = false;
 }
@@ -22,15 +26,15 @@ hotelSearchBtn.addEventListener('click', function (event) {
     modal.classList.toggle('modal-hidden');
     modal.classList.remove("modal-error");
 
-    if (storage) {
-      dateInInput.value = storage;
-      dateOutInput.focus();
+    if (storage1 || storage2) {
+      adultsNumber.value = storage1;
+      childrenNumber.value = storage2;
+      searchButton.focus();
     } else {
       dateInInput.focus();
     }
   }
 });
-
 
 bookForm.addEventListener("submit", function (evt) {
   if (!dateInInput.value || !dateOutInput.value || !adultsNumber.value || !childrenNumber.value) {
@@ -39,8 +43,6 @@ bookForm.addEventListener("submit", function (evt) {
     modal.offsetWidth = modal.offsetWidth;
     modal.classList.add("modal-error");
   } else {
-    localStorage.setItem("date-in", dateInInput.value);
-    localStorage.setItem("date-out", dateOutInput.value);
     localStorage.setItem("adult-num", adultsNumber.value);
     localStorage.setItem("child-num", childrenNumber.value);
   }
