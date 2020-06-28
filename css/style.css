@@ -1020,13 +1020,31 @@ img {
   margin-top: 0px;
   padding-top: 35px;
   padding-left: 1px;
+  fill: var(--light-grey);
 }
 
 .icon-down-img {
   margin-top: 0px;
   padding-left: 8px;
   padding-right: 0px;
+  fill: var(--light-grey);
 }
+
+.icon-up-img:hover {
+    fill: var(--basic-black);
+  }
+  
+  .icon-down-img:hover {
+    fill: var(--basic-black);
+  }
+
+  .icon-up-img:active {
+    fill: var(--blue);
+  }
+  
+  .icon-down-img:active {
+    fill: var(--blue);
+  }
 
 .hotel-title {
   font-size: 21px;
@@ -1074,6 +1092,7 @@ img {
   border: solid 1px transparent;
   margin-bottom: 0px;
   margin-left: -3px;
+  cursor: pointer;
 }
 
 .about-hotel:hover {
@@ -1093,6 +1112,7 @@ img {
   width: 142px;
   height: 27px;
   margin-left: 3px;
+  cursor: pointer;
 }
 
 .book-hotel:hover {
