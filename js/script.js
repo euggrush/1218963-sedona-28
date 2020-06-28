@@ -6,8 +6,6 @@ let adultsNumber = document.querySelector('.adults-number');
 let childrenNumber = document.querySelector('.children-nubmer');
 let plusMinusBtn = document.querySelectorAll('.plus-minus-button');
 let bookForm = document.querySelector('.book-form');
-let checkboxBtn = document.querySelectorAll(".filter-checkbox-wrapper");
-let checkboxIcon = document.querySelectorAll(".checkbox-on-off");
 
 var isStorageSupport = true;
 var storage = "";
@@ -18,51 +16,42 @@ try {
   isStorageSupport = false;
 }
 
-for (let i = 0; i < checkboxBtn.length; i++) {
-    checkboxBtn[i].addEventListener('click', function(event) {
-        let target = event.target;
-        if (target.classList.contains('checkbox-filter')) {
-            checkboxIcon.classList.remove('swim-checkbox-icon-off');
-            checkboxIcon.classList.add('swim-checkbox-icon-on');
-        }
-    });
-}
+hotelSearchBtn.addEventListener('click', function (event) {
+  let target = event.target;
+  if (target && target.classList.contains('hotel-search')) {
+    modal.classList.toggle('modal-hidden');
+    modal.classList.remove("modal-error");
 
-hotelSearchBtn.addEventListener('click', function(event) {
-    let target = event.target;
-    if (target && target.classList.contains('hotel-search')) {
-        modal.classList.toggle('modal-hidden');
-        modal.classList.remove("modal-error");
-
-        if (storage) {
-            dateInInput.value = storage;
-            dateOutInput.focus();
-          } else {
-              dateInInput.focus();
-        }   
+    if (storage) {
+      dateInInput.value = storage;
+      dateOutInput.focus();
+    } else {
+      dateInInput.focus();
     }
+  }
 });
 
+
 bookForm.addEventListener("submit", function (evt) {
-    if (!dateInInput.value || !dateOutInput.value || !adultsNumber.value || !childrenNumber.value) {
-        evt.preventDefault();
-        modal.classList.remove("modal-error");
-        modal.offsetWidth = modal.offsetWidth;
-        modal.classList.add("modal-error");
-    } else {
-        localStorage.setItem("date-in", dateInInput.value);
-        localStorage.setItem("date-out", dateOutInput.value);
-        localStorage.setItem("adult-num", adultsNumber.value);
-        localStorage.setItem("child-num", childrenNumber.value);
-      }
-    });
-    
-    window.addEventListener("keydown", function (evt) {
-        if (evt.keyCode === 27) {
-          if (!modal.classList.contains("modal-hidden")) {
-            evt.preventDefault();
-            modal.classList.add("modal-hidden");
-            modal.classList.remove("modal-error");
-          }
-        }
-      });
+  if (!dateInInput.value || !dateOutInput.value || !adultsNumber.value || !childrenNumber.value) {
+    evt.preventDefault();
+    modal.classList.remove("modal-error");
+    modal.offsetWidth = modal.offsetWidth;
+    modal.classList.add("modal-error");
+  } else {
+    localStorage.setItem("date-in", dateInInput.value);
+    localStorage.setItem("date-out", dateOutInput.value);
+    localStorage.setItem("adult-num", adultsNumber.value);
+    localStorage.setItem("child-num", childrenNumber.value);
+  }
+});
+
+window.addEventListener("keydown", function (evt) {
+  if (evt.keyCode === 27) {
+    if (!modal.classList.contains("modal-hidden")) {
+      evt.preventDefault();
+      modal.classList.add("modal-hidden");
+      modal.classList.remove("modal-error");
+    }
+  }
+});
