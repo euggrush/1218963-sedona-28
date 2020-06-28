@@ -1246,6 +1246,11 @@ img {
   height: 23px;
   margin-top: 25px;
   padding: 0;
+  cursor: pointer;
+}
+
+.filter-checkbox-wrapper label {
+    cursor: pointer;
 }
 
 .infrastructure {
