@@ -1165,7 +1165,7 @@ img {
 
 /* ФИЛЬТР ОТЕЛЯ */
 
-.hotel-filter form {
+.hotel-filter .hotel-filter-wrapper {
   display: flex;
   flex-direction: row;
   height: 217px;
@@ -1183,7 +1183,7 @@ img {
 .swim-checkbox-icon-off {
   width: 27px;
   height: 23px;
-  margin-top: 1px;
+  margin-top: -3px;
   margin-left: 1px;
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
@@ -1327,7 +1327,7 @@ img {
   border: 2px solid var(--basic-white);
   border-radius: 2px;
   margin-bottom: 30px;
-  margin-left: -14px;
+  margin-left: 83px;
 }
 
 .show-button:hover {
