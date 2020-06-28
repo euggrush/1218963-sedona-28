@@ -6,6 +6,8 @@ let adultsNumber = document.querySelector('.adults-number');
 let childrenNumber = document.querySelector('.children-nubmer');
 let plusMinusBtn = document.querySelectorAll('.plus-minus-button');
 let bookForm = document.querySelector('.book-form');
+let checkboxBtn = document.querySelectorAll(".filter-checkbox-wrapper");
+let checkboxIcon = document.querySelectorAll(".checkbox-on-off");
 
 var isStorageSupport = true;
 var storage = "";
@@ -14,6 +16,16 @@ try {
   storage = localStorage.getItem("date-in");
 } catch (err) {
   isStorageSupport = false;
+}
+
+for (let i = 0; i < checkboxBtn.length; i++) {
+    checkboxBtn[i].addEventListener('click', function(event) {
+        let target = event.target;
+        if (target.classList.contains('checkbox-filter')) {
+            checkboxIcon.classList.remove('swim-checkbox-icon-off');
+            checkboxIcon.classList.add('swim-checkbox-icon-on');
+        }
+    });
 }
 
 hotelSearchBtn.addEventListener('click', function(event) {
