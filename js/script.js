@@ -57,3 +57,19 @@ window.addEventListener("keydown", function (evt) {
     }
   }
 });
+
+modal.addEventListener('click', function (event) {
+  let target = event.target;
+  if (target.classList.contains('adult-remove')) {
+    adultsNumber.value--;
+  }
+  else if (target.classList.contains('adult-add')) {
+    adultsNumber.value++;
+  }
+  else if (target.classList.contains('child-remove')) {
+    childrenNumber.value--;
+  }
+  else if (target.classList.contains('child-add')) {
+    childrenNumber.value++;
+  }
+});
