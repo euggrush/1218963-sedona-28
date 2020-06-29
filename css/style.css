@@ -391,8 +391,8 @@ img {
 }
 
 .bridge-photo {
-    width: 800px;
-    height: 256px;
+  width: 800px;
+  height: 256px;
 }
 
 .features-list .feature-item:nth-child(3) h3 {
@@ -672,7 +672,19 @@ img {
   line-height: 26px;
 }
 
-.footer-copyright svg {
+.html-logo {
+  padding-top: 4px;
+  padding-left: 8px;
+  background-image: url('../img/logo-htmlacademy.svg');
+  background-repeat: no-repeat;
+  fill: #669EC0;
+}
+
+.html-logo:hover {
+  fill: #669EC0;
+}
+
+/* .footer-copyright svg {
   padding-top: 4px;
   padding-left: 8px;
   fill: #231F20;
@@ -680,8 +692,8 @@ img {
 
 
 .footer-copyright svg:hover {
-    fill: #669EC0;
-  }
+  fill: #669EC0;
+} */
 
 .inner-page .footer-contacts {
   padding-top: 2px;
@@ -720,8 +732,8 @@ img {
 }
 
 .modal-error {
-    animation: shake 0.6s;
-  }
+  animation: shake 0.6s;
+}
 
 .modal button {
   border: none;
@@ -1001,10 +1013,10 @@ img {
 }
 
 .sort label:active {
-    mix-blend-mode: unset;
-    opacity: 1;
-    color: var(--basic-black);
-  }
+  mix-blend-mode: unset;
+  opacity: 1;
+  color: var(--basic-black);
+}
 
 .sort label:active {
   border: none;
@@ -1037,22 +1049,22 @@ img {
 }
 
 .icon-up-img:hover {
-    fill: var(--basic-black);
-  }
-  
-  .icon-down-img:hover {
-    fill: var(--basic-black);
-  }
+  fill: var(--basic-black);
+}
 
-  .icon-up-img:active {
-    fill: var(--blue);
-  }
-  
-  .icon-down-img:active {
-    fill: var(--blue);
-  }
+.icon-down-img:hover {
+  fill: var(--basic-black);
+}
 
-.hotel-title {
+.icon-up-img:active {
+  fill: var(--blue);
+}
+
+.icon-down-img:active {
+  fill: var(--blue);
+}
+
+.hotel-title a {
   font-size: 21px;
   line-height: 16px;
   text-transform: uppercase;
@@ -1062,11 +1074,11 @@ img {
   margin-bottom: 2px;
 }
 
-.hotel-title:hover {
+.hotel-title a:hover {
   color: var(--blue);
 }
 
-.hotel-title:active {
+.hotel-title a:active {
   mix-blend-mode: normal;
   opacity: 0.3;
 }
@@ -1089,6 +1101,12 @@ img {
 }
 
 .about-hotel {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
   align-items: center;
   text-transform: uppercase;
   color: var(--basic-white);
@@ -1110,6 +1128,12 @@ img {
 }
 
 .book-hotel {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+
   align-items: center;
   text-transform: uppercase;
   color: var(--basic-white);
@@ -1183,20 +1207,20 @@ img {
 .swim-checkbox-icon-off {
   width: 27px;
   height: 23px;
-  margin-top: -3px;
+  margin-top: 1px;
   margin-left: 1px;
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
 }
 
 .swim-checkbox-icon-on {
-    width: 27px;
-    height: 23px;
-    margin-top: 1px;
-    margin-left: 1px;
-    background-image: url("../img/checkbox-on.svg");
-    background-repeat: no-repeat;
-  }
+  width: 27px;
+  height: 23px;
+  margin-top: 1px;
+  margin-left: 1px;
+  background-image: url("../img/checkbox-on.svg");
+  background-repeat: no-repeat;
+}
 
 .park-checkbox-icon {
   width: 29px;
@@ -1276,7 +1300,7 @@ img {
 }
 
 .filter-checkbox-wrapper label {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .infrastructure {
@@ -1657,9 +1681,11 @@ img {
 }
 
 .shadow {
-  box-shadow: 23px 7px 32px -17px rgba(0, 0, 0, 0.5),
-    -23px 7px 32px -17px rgba(0, 0, 0, 0.5);
+  box-shadow: -10px 6px 13px -7px #000000,
+    10px 3px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
+
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
@@ -1685,42 +1711,42 @@ input[type=number]::-webkit-outer-spin-button {
 /* Animations */
 
 @keyframes bounce {
-    0% {
-      transform: translateY(-150px);
-    }
-  
-    /* 70% {
+  0% {
+    transform: translateY(-150px);
+  }
+
+  /* 70% {
       transform: translateY(30px);
     } */
-  
-    /* 90% {
+
+  /* 90% {
       transform: translateY(-10px);
     } */
-  
-    100% {
-      transform: translateY(0);
-    }
+
+  100% {
+    transform: translateY(0);
   }
-  
-  @keyframes shake {
-    0%,
-    100% {
-      transform: translateX(0);
-    }
-  
-    10%,
-    30%,
-    50%,
-    70%,
-    90% {
-      transform: translateX(-10px);
-    }
-  
-    20%,
-    40%,
-    60%,
-    80% {
-      transform: translateX(10px);
-    }
+}
+
+@keyframes shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
   }
-  
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
