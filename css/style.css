@@ -672,19 +672,10 @@ img {
   line-height: 26px;
 }
 
-.html-logo {
-  padding-top: 4px;
-  padding-left: 8px;
-  background-image: url('../img/logo-htmlacademy.svg');
-  background-repeat: no-repeat;
-  fill: #669EC0;
-}
 
-.html-logo:hover {
-  fill: #669EC0;
-}
-
-/* .footer-copyright svg {
+.footer-copyright svg {
+  width: 115px;
+  height: 41px;
   padding-top: 4px;
   padding-left: 8px;
   fill: #231F20;
@@ -693,7 +684,7 @@ img {
 
 .footer-copyright svg:hover {
   fill: #669EC0;
-} */
+}
 
 .inner-page .footer-contacts {
   padding-top: 2px;
