@@ -686,6 +686,19 @@ img {
   fill: #669EC0;
 }
 
+.inner-page .footer-copyright svg {
+  width: 115px;
+  height: 41px;
+  padding-top: 4px;
+  padding-left: 8px;
+  fill: #231F20;
+}
+
+
+.inner-page .footer-copyright svg:hover {
+  fill: #669EC0;
+}
+
 .inner-page .footer-contacts {
   padding-top: 2px;
 }
