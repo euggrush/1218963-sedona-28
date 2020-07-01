@@ -638,8 +638,8 @@ img {
 .inner-page .footer-copyright svg {
   width: 115px;
   height: 41px;
-  padding-top: 4px;
-  padding-left: 8px;
+  padding-top: 7px;
+  padding-left: 5px;
   fill: #231F20;
 }
 
@@ -1024,6 +1024,9 @@ img {
 }
 
 .hotel-title a {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
   font-size: 21px;
   line-height: 16px;
   text-transform: uppercase;
@@ -1134,6 +1137,11 @@ img {
   background-color: var(--input-color);
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 4px;
+}
+
+.rating-number {
+  padding-left: 3px;
 }
 
 .map-picture {
@@ -1429,6 +1437,7 @@ img {
 .stars img {
   padding-top: 28px;
   padding-bottom: 39px;
+  padding-right: 1px;
 }
 
 .hotel-info {
