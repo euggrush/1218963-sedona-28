@@ -18,8 +18,8 @@
   --grey: #666666;
   --light-grey: #cacaca;
   --logo-black: #231F20;
+  --backgound-grey: #F2F2F2;
 }
-
 
 /* Global */
 
@@ -38,7 +38,7 @@ body {
   line-height: 26px;
   color: var(--basic-black);
   text-transform: uppercase;
-  background-color: var(--basic-dark);
+  background-color: var(--backgound-grey);
   margin-bottom: 0px;
 }
 
@@ -67,15 +67,12 @@ img {
   margin: -1px;
 }
 
-
-
 .bg {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
-
 
 /* Main header */
 
@@ -87,7 +84,6 @@ img {
   width: 100%;
 }
 
-
 /* Logo */
 
 .main-header-logo {
@@ -98,7 +94,6 @@ img {
   width: 138px;
   height: 70px;
 }
-
 
 /* Container */
 
@@ -127,7 +122,6 @@ img {
 .site-navigation li:nth-child(3) {
   margin-right: 11px;
 }
-
 
 .main-navigation {
   display: flex;
@@ -315,12 +309,6 @@ img {
   padding-left: 140px;
   padding-right: 140px;
 }
-
-/* .not-for-tourists {
-    padding-left: 49px;
-    padding-right: 49px;
-    padding-top: 15px;
-} */
 
 .not-for-tourists-one {
   padding-left: 50px;
@@ -1110,7 +1098,7 @@ img {
 }
 
 .about-hotel {
-  font-family: PT Sans;
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1137,7 +1125,7 @@ img {
 }
 
 .book-hotel {
-  font-family: PT Sans;
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -1396,7 +1384,7 @@ img {
   text-transform: uppercase;
   background-color: var(--basic-brown);
   border: none;
-  font-family: PT Sans;
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 21px;
@@ -1568,7 +1556,7 @@ img {
 }
 
 .price-controls label {
-  font-family: PT Sans;
+  font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -1628,7 +1616,7 @@ img {
   border: none;
   border-radius: 5px;
   background: transparent;
-  font-family: inherit;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: inherit;
 }
 
