@@ -188,7 +188,6 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
-  align-items: center;
   text-align: center;
   color: var(--basic-extra-dark);
   padding-top: 29px;
@@ -509,40 +508,6 @@ img {
   color: var(--basic-extra-dark);
 }
 
-/* .third-feature>.number-city,
-.fourth-feature>.number-city,
-.fifth-feature>.number-city {
-    padding-top: 25px;
-} */
-
-/* .third-feature>.not-for-tourists,
-.fourth-feature>.not-for-tourists,
-.fifth-feature>.not-for-tourists {
-    padding-top: 23px;
-} */
-
-/* .third-feature>.not-for-tourists {
-    width: 207px;
-    height: 43px;
-    padding-left: 96px;
-    margin: 0px;
-} */
-
-/* .fourth-feature>.not-for-tourists {
-    width: 265px;
-    height: 43px;
-    padding-left: 66px;
-    margin: 0px;
-}
-
-.fifth-feature>.not-for-tourists {
-    width: 256px;
-    height: 43px;
-    margin: 0px;
-    padding-left: 73px;
-} */
-
-
 /* Appointment */
 
 .appointment input {
@@ -558,7 +523,6 @@ img {
   background: var(--basic-white);
   border: 2px solid var(--extra-white);
 }
-
 
 /* Main footer */
 
@@ -608,7 +572,6 @@ img {
 .footer-social {
   text-align: center;
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   width: 155px;
   padding-right: 0px;
@@ -650,7 +613,6 @@ img {
 .footer-copyright {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   margin: 0px;
   padding-left: 65px;
   padding-top: 2px;
@@ -660,7 +622,6 @@ img {
   line-height: 26px;
 }
 
-
 .footer-copyright svg {
   width: 115px;
   height: 41px;
@@ -668,7 +629,6 @@ img {
   padding-left: 8px;
   fill: #231F20;
 }
-
 
 .footer-copyright svg:hover {
   fill: #669EC0;
@@ -681,7 +641,6 @@ img {
   padding-left: 8px;
   fill: #231F20;
 }
-
 
 .inner-page .footer-copyright svg:hover {
   fill: #669EC0;
@@ -705,8 +664,6 @@ img {
   padding-left: 5px;
 }
 
-
-
 /* MODAL */
 
 .modal {
@@ -719,7 +676,6 @@ img {
   width: 568px;
   height: 391px;
   border: solid 1px transparent;
-
   animation: bounce 1s;
 }
 
@@ -813,7 +769,6 @@ img {
   box-shadow: 0 0 1px var(--light-grey);
 }
 
-
 .modal .search-button {
   width: 458px;
   height: 58px;
@@ -878,6 +833,11 @@ img {
 .date-out-input input {
   width: 310px;
   height: 34px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .date-in-input input:focus,
@@ -1064,10 +1024,10 @@ img {
 
 .hotel-title a {
   font-size: 21px;
-    line-height: 16px;
-    text-transform: uppercase;
-    color: var(--basic-black);
-    margin-left: -2px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  margin-left: -2px;
 }
 
 .hotel-title a:hover {
@@ -1103,7 +1063,6 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-
   align-items: center;
   text-transform: uppercase;
   color: var(--basic-white);
@@ -1130,7 +1089,6 @@ img {
   font-weight: bold;
   font-size: 14px;
   line-height: 21px;
-
   align-items: center;
   text-transform: uppercase;
   color: var(--basic-white);
@@ -1284,7 +1242,6 @@ img {
   margin-left: -4px;
 }
 
-
 .filter-checkbox-wrapper {
   display: flex;
   align-items: center;
@@ -1363,14 +1320,12 @@ img {
   align-items: center;
   text-transform: uppercase;
   color: var(--basic-white);
-  /* margin-top: 0px; */
   margin-left: 1px;
 }
 
 .show-button:hover span {
   color: var(--basic-black);
 }
-
 
 /* BOOKING SECTION */
 
@@ -1483,7 +1438,6 @@ img {
   min-height: 100%;
   margin-bottom: 0;
 }
-
 
 /* Range-Filter */
 
@@ -1606,7 +1560,6 @@ img {
 .price-controls .max-price-wrapper {
   display: flex;
   align-items: center;
-  justify-items: space-around;
   padding-left: 0px;
   padding-right: 0px;
 }
@@ -1686,7 +1639,6 @@ img {
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -1714,14 +1666,6 @@ input[type=number]::-webkit-outer-spin-button {
   0% {
     transform: translateY(-150px);
   }
-
-  /* 70% {
-      transform: translateY(30px);
-    } */
-
-  /* 90% {
-      transform: translateY(-10px);
-    } */
 
   100% {
     transform: translateY(0);
