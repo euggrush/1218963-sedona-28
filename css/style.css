@@ -1219,13 +1219,13 @@ img {
 }
 
 .park-checkbox-label {
-  margin-top: -5px;
-  margin-left: -5px;
+  margin-top: -1px;
+  margin-left: -6px;
 }
 
 .wi-fi-checkbox-label {
-  margin-top: -8px;
-  margin-left: -5px;
+  margin-top: 0px;
+  margin-left: -6px;
 }
 
 .hotel-checkbox-label {
@@ -1234,24 +1234,33 @@ img {
 }
 
 .motel-checkbox-label {
-  margin-top: -4px;
+  margin-top: 0px;
   margin-left: -3px;
 }
 
 .apt-checkbox-label {
-  margin-top: -8px;
+  margin-top: 1px;
   margin-left: -4px;
 }
 
 .filter-checkbox-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   width: auto;
   height: 23px;
-  margin-top: 24px;
+  margin-top: 25px;
   padding: 0;
   cursor: pointer;
+}
+
+.filter-checkbox-wrapper-parking,
+.filter-checkbox-wrapper-motel {
+  margin-top: 23px;
+}
+
+.filter-checkbox-wrapper-wifi,
+.filter-checkbox-wrapper-apt {
+  margin-top: 22px;
 }
 
 .filter-checkbox-wrapper label {
@@ -1459,6 +1468,7 @@ img {
   font-size: 16px;
   line-height: 21px;
   text-transform: uppercase;
+  padding-bottom: 1px;
 }
 
 .range-controls {
