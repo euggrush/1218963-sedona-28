@@ -28,7 +28,7 @@
 }
 
 body {
-  min-width: 1200px;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
@@ -68,10 +68,14 @@ img {
 }
 
 .bg {
+  width: 1200px;
+  height: 509px;
+  background-image: url("../img/background-photo.png");
+  background-repeat: no-repeat;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 9px;
 }
 
 /* Main header */
@@ -99,7 +103,8 @@ img {
 
 .container {
   width: 1200px;
-  max-width: 100%;
+  /* max-width: 1200px; */
+  min-width: 100%;
   height: auto;
   margin: 0 auto;
   padding: 0;
@@ -166,7 +171,8 @@ img {
 }
 
 .features-background-top {
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   min-height: 216px;
   height: 100%;
   background-color: var(--basic-white);
@@ -671,7 +677,7 @@ img {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
   color: var(--basic-black);
   background-color: var(--basic-white);
   width: 568px;
@@ -799,7 +805,6 @@ img {
 
 .date-in-input {
   display: flex;
-  justify-content: end;
   align-items: center;
   height: 38px;
   margin-top: 55px;
@@ -823,7 +828,6 @@ img {
 
 .date-out-input {
   display: flex;
-  justify-content: end;
   align-items: center;
   height: 38px;
   margin-top: 29px;
@@ -1145,7 +1149,8 @@ img {
 }
 
 .map-picture {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 474px;
   margin: 0px;
   padding: 0px;
@@ -1291,7 +1296,6 @@ img {
 .cost-per-day {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
   margin-left: 348px;
   border: solid 1px transparent;
@@ -1597,7 +1601,7 @@ img {
 
 .price-controls {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border: solid 2px var(--basic-white);
   width: 313px;
   height: 32px;
@@ -1653,8 +1657,8 @@ img {
 }
 
 .shadow {
-  width: 1200px;
-  min-width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   box-shadow: -10px 6px 13px -7px #000000,
     10px 3px 13px -7px #000000,
