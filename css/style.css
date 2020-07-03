@@ -103,9 +103,8 @@ img {
 /* Container */
 
 .container {
-  width: 1200px;
-  /* max-width: 1200px; */
-  min-width: 100%;
+  width: 100%;
+  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   padding: 0;
@@ -687,10 +686,15 @@ footer a {
 
 /* MODAL */
 
+.appoitment-modal-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .modal {
   position: absolute;
-  left: 0;
-  right: 0;
   margin: 0 auto;
   color: var(--basic-black);
   background-color: var(--basic-white);
@@ -698,6 +702,7 @@ footer a {
   height: 391px;
   border: solid 1px transparent;
   animation: bounce 1s;
+  z-index: 1;
 }
 
 .modal-error {
@@ -1321,7 +1326,7 @@ footer a {
 .hotel-filter .filter-title {
   font-size: 16px;
   line-height: 21px;
-  margin-top: 26px;
+  margin-top: 25px;
   font-style: normal;
   font-weight: bold;
 }
@@ -1619,7 +1624,7 @@ footer a {
   border: solid 2px var(--basic-white);
   width: 313px;
   height: 32px;
-  margin-top: 10px;
+  margin-top: 9px;
   margin-bottom: 0;
   margin-left: -2px;
 }
@@ -1673,6 +1678,7 @@ footer a {
 .shadow {
   width: 100%;
   max-width: 1200px;
+  min-width: 1200px;
   margin: 0 auto;
   box-shadow: -10px 6px 13px -7px #000000,
     10px 3px 13px -7px #000000,
