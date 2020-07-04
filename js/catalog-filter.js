@@ -9,3 +9,12 @@ for (let i = 0; i < checkboxBtn.length; i++) {
     }
   });
 }
+
+let toggle = document.querySelectorAll('.toggle');
+let costFilter = document.querySelector('cost-per-day');
+
+costFilter.addEventListener('submit', function(event) {
+  if (toggle) {
+    event.preventDefault();
+  }
+});

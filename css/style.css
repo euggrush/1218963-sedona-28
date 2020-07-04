@@ -1528,16 +1528,16 @@ footer a {
 
 .range-controls .toggle {
   position: absolute;
-  top: 31px;
-  left: 0;
-  width: 3px;
-  height: 3px;
-  padding: 0;
-  border: 8px solid #ffffff;
-  background-color: #ababab;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
-  cursor: pointer;
+    top: 31px;
+    /* left: 0; */
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    border: 7px solid #ffffff;
+    background-color: #ababab;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+    cursor: pointer;
 }
 
 .toggle:hover {
