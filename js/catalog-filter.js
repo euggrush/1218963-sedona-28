@@ -1,5 +1,6 @@
 let checkboxBtn = document.querySelectorAll('.filter-checkbox-wrapper');
 let checkboxIcon = document.querySelectorAll('.checkbox-on-off');
+let rangeForm = document.querySelector('.range-form');
 
 for (let i = 0; i < checkboxBtn.length; i++) {
   checkboxBtn[i].addEventListener('click', function (event) {
@@ -10,11 +11,6 @@ for (let i = 0; i < checkboxBtn.length; i++) {
   });
 }
 
-let toggle = document.querySelectorAll('.toggle');
-let costFilter = document.querySelector('cost-per-day');
-
-costFilter.addEventListener('submit', function(event) {
-  if (toggle) {
-    event.preventDefault();
-  }
+rangeForm.addEventListener('submit', function (event) {
+  event.preventDefault();
 });
