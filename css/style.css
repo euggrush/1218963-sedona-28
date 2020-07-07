@@ -205,9 +205,9 @@ img {
   font-size: 14px;
   line-height: 26px;
   text-align: center;
-  color: var(--basic-extra-dark);
   padding-top: 29px;
   margin-bottom: 0px;
+  color: var(--basic-extra-dark);
 }
 
 .features-list {
@@ -778,8 +778,9 @@ footer a {
 
 .adults-plus-minus-wrapper input:focus,
 .children-plus-minus-wrapper input:focus {
-  outline: none;
-  box-shadow: 0 0 0 var(--light-grey);
+  box-shadow: 0 0 1px var(--light-grey);
+  outline: 0;
+  border: 0;
 }
 
 .plus-minus-button {
@@ -792,6 +793,7 @@ footer a {
 
 .plus-minus-button:focus {
   outline: none;
+  border: none;
   box-shadow: 0 0 1px var(--light-grey);
 }
 
@@ -1696,8 +1698,8 @@ footer a {
   max-width: 1200px;
   min-width: 1200px;
   margin: 0 auto;
-  box-shadow: -10px 6px 13px -7px #000000,
-    10px 3px 13px -7px #000000,
+  box-shadow: -10px 6px 13px -7px var(--light-grey),
+    10px 3px 13px -7px var(--light-grey),
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
